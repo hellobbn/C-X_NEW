@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		156C6B3E1D1F4DF600D00711 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 156C6B3D1D1F4DF600D00711 /* main.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		156C6B381D1F4DF600D00711 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,7 +20,26 @@
 
 /* Begin PBXFileReference section */
 		156C6B3A1D1F4DF600D00711 /* C-X_NEW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C-X_NEW"; sourceTree = BUILT_PRODUCTS_DIR; };
-		156C6B3D1D1F4DF600D00711 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		156C6B6C1D1F4FDA00D00711 /* C3-2-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C3-2-2.c"; sourceTree = "<group>"; };
+		156C6B6D1D1F4FDA00D00711 /* C3-2-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C3-2-3.c"; sourceTree = "<group>"; };
+		156C6B6E1D1F4FDA00D00711 /* C3-2-4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C3-2-4.c"; sourceTree = "<group>"; };
+		156C6B6F1D1F4FEB00D00711 /* C4-1-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C4-1-1.c"; sourceTree = "<group>"; };
+		156C6B701D1F4FEB00D00711 /* C4-1-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C4-1-3.c"; sourceTree = "<group>"; };
+		156C6B711D1F4FEB00D00711 /* C4-2-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C4-2-1.c"; sourceTree = "<group>"; };
+		156C6B721D1F4FEB00D00711 /* C4-2-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C4-2-2.c"; sourceTree = "<group>"; };
+		156C6B731D1F4FEB00D00711 /* C4-2-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "C4-2-2.h"; sourceTree = "<group>"; };
+		156C6B741D1F4FEB00D00711 /* C4-2-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C4-2-3.c"; sourceTree = "<group>"; };
+		156C6B751D1F4FEB00D00711 /* C4-2-4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C4-2-4.c"; sourceTree = "<group>"; };
+		156C6B7F1D1F503600D00711 /* C5-1-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-1-1.c"; sourceTree = "<group>"; };
+		156C6B801D1F503600D00711 /* C5-2-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-2-1.c"; sourceTree = "<group>"; };
+		156C6B811D1F503600D00711 /* C5-2-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-2-2.c"; sourceTree = "<group>"; };
+		156C6B821D1F503600D00711 /* C5-2-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-2-3.c"; sourceTree = "<group>"; };
+		156C6B831D1F503600D00711 /* C5-3-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-3-1.c"; sourceTree = "<group>"; };
+		156C6B841D1F503600D00711 /* C5-3-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-3-2.c"; sourceTree = "<group>"; };
+		156C6B851D1F503600D00711 /* C5-3-3_new.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-3-3_new.c"; sourceTree = "<group>"; };
+		156C6B861D1F503600D00711 /* C5-3-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-3-3.c"; sourceTree = "<group>"; };
+		156C6B871D1F503600D00711 /* C5-Test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-Test.c"; sourceTree = "<group>"; };
+		156C6B881D1F505A00D00711 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +56,12 @@
 		156C6B311D1F4DF600D00711 = {
 			isa = PBXGroup;
 			children = (
-				156C6B3C1D1F4DF600D00711 /* C-X_NEW */,
+				156C6B881D1F505A00D00711 /* README.md */,
 				156C6B3B1D1F4DF600D00711 /* Products */,
+				156C6B3C1D1F4DF600D00711 /* C3.x */,
+				156C6B4A1D1F4ED400D00711 /* C4.x */,
+				156C6B581D1F4F2400D00711 /* C5.x */,
+				156C6B6B1D1F4F5100D00711 /* C6.x */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +73,51 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		156C6B3C1D1F4DF600D00711 /* C-X_NEW */ = {
+		156C6B3C1D1F4DF600D00711 /* C3.x */ = {
 			isa = PBXGroup;
 			children = (
-				156C6B3D1D1F4DF600D00711 /* main.c */,
+				156C6B6C1D1F4FDA00D00711 /* C3-2-2.c */,
+				156C6B6D1D1F4FDA00D00711 /* C3-2-3.c */,
+				156C6B6E1D1F4FDA00D00711 /* C3-2-4.c */,
 			);
-			path = "C-X_NEW";
+			path = C3.x;
+			sourceTree = "<group>";
+		};
+		156C6B4A1D1F4ED400D00711 /* C4.x */ = {
+			isa = PBXGroup;
+			children = (
+				156C6B6F1D1F4FEB00D00711 /* C4-1-1.c */,
+				156C6B701D1F4FEB00D00711 /* C4-1-3.c */,
+				156C6B711D1F4FEB00D00711 /* C4-2-1.c */,
+				156C6B721D1F4FEB00D00711 /* C4-2-2.c */,
+				156C6B731D1F4FEB00D00711 /* C4-2-2.h */,
+				156C6B741D1F4FEB00D00711 /* C4-2-3.c */,
+				156C6B751D1F4FEB00D00711 /* C4-2-4.c */,
+			);
+			path = C4.x;
+			sourceTree = "<group>";
+		};
+		156C6B581D1F4F2400D00711 /* C5.x */ = {
+			isa = PBXGroup;
+			children = (
+				156C6B7F1D1F503600D00711 /* C5-1-1.c */,
+				156C6B801D1F503600D00711 /* C5-2-1.c */,
+				156C6B811D1F503600D00711 /* C5-2-2.c */,
+				156C6B821D1F503600D00711 /* C5-2-3.c */,
+				156C6B831D1F503600D00711 /* C5-3-1.c */,
+				156C6B841D1F503600D00711 /* C5-3-2.c */,
+				156C6B851D1F503600D00711 /* C5-3-3_new.c */,
+				156C6B861D1F503600D00711 /* C5-3-3.c */,
+				156C6B871D1F503600D00711 /* C5-Test.c */,
+			);
+			path = C5.x;
+			sourceTree = "<group>";
+		};
+		156C6B6B1D1F4F5100D00711 /* C6.x */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C6.x;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +179,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				156C6B3E1D1F4DF600D00711 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +271,8 @@
 		156C6B421D1F4DF600D00711 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -221,6 +280,8 @@
 		156C6B431D1F4DF600D00711 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
