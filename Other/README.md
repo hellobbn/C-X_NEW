@@ -2,9 +2,9 @@
   ##This Folder is used to store my **interested sources**
         Now Mostly from [here](https://www.shiyanlou.com/)
     Use this command to compile:
-        >cc
+        `cc`
     or:
-        >clang *FILENAME* -o *OUTPUT*
+        `clang *FILENAME* -o *OUTPUT*`
 
     ##File lists:
             *if can be **successfully** compiled -- I'll use [ ]*
