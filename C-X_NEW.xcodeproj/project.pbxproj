@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		15EB10AB1D1F9B1D00772D05 /* 2048.c in Sources */ = {isa = PBXBuildFile; fileRef = 15EB10AA1D1F9B1D00772D05 /* 2048.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		156C6B381D1F4DF600D00711 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -40,6 +44,9 @@
 		156C6B861D1F503600D00711 /* C5-3-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-3-3.c"; sourceTree = "<group>"; };
 		156C6B871D1F503600D00711 /* C5-Test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-Test.c"; sourceTree = "<group>"; };
 		156C6B881D1F505A00D00711 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		15EB10A71D1F963700772D05 /* Calculator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Calculator.c; sourceTree = "<group>"; };
+		15EB10AA1D1F9B1D00772D05 /* 2048.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 2048.c; sourceTree = "<group>"; };
+		15EB10AD1D1FA07700772D05 /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,7 @@
 				156C6B4A1D1F4ED400D00711 /* C4.x */,
 				156C6B581D1F4F2400D00711 /* C5.x */,
 				156C6B6B1D1F4F5100D00711 /* C6.x */,
+				15EB10A61D1F95FE00772D05 /* Other */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +126,16 @@
 			children = (
 			);
 			path = C6.x;
+			sourceTree = "<group>";
+		};
+		15EB10A61D1F95FE00772D05 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				15EB10AD1D1FA07700772D05 /* README.md */,
+				15EB10A71D1F963700772D05 /* Calculator.c */,
+				15EB10AA1D1F9B1D00772D05 /* 2048.c */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15EB10AB1D1F9B1D00772D05 /* 2048.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +324,7 @@
 				156C6B431D1F4DF600D00711 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
