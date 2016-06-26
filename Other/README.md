@@ -7,7 +7,7 @@
         `clang *FILENAME* -o *OUTPUT*`
 
 ######File lists:
-*if can be **successfully** compiled -- I'll use [x]*
+*if can be __successfully__ compiled -- I'll use - [x]*
 * - [x] Claculator.c
 * - [x] 2048.c
 
