@@ -63,8 +63,8 @@ void GUESSING(int thinking)
     printf("Enter it please:");
     scanf("%d", &input_number);
     //Checkout
-    int count = 1;
-    do{
+    int count = 0;
+    while(input_number != thinking){
         printf("No no no,You are wrong\n");
         count ++;
         if(input_number > thinking){
@@ -74,14 +74,14 @@ void GUESSING(int thinking)
         {
             printf("It is too small\n");
         }
-        printf("Try again:");
-        scanf("%d", &input_number);
         if (count == set_final_number) {
-            printf("Unfortunately You failed....You have tried %d times", count);
+            printf("Unfortunately You failed....You have tried %d times\n", count);
             printf("The answer is:%d", thinking);
             exit(0);
         }
-    }while(input_number != thinking);
+        printf("Try again:");
+        scanf("%d", &input_number);
+    }
     
     printf("Finally You did it. You have tried %d Times", count);
 }
