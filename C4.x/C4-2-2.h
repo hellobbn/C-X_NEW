@@ -18,6 +18,26 @@
 void SET_NUMBER_LENGTH(int i);
 void THINK_NUMBER(int set_length);
 void GUESSING(int thinking);
+int JUDGE(int number_length);
+
+int JUDGE(int number_length)
+{
+    if (number_length >= 3 && number_length <=9) {
+        SET_NUMBER_LENGTH(number_length);
+        return 0;
+    }else{
+        printf("Invalid input!");
+        printf("Would you like to reset it?(Y/N):");
+        char read;
+        scanf("%s",&read);
+        if (toupper(read) == 'Y') {
+            return 1;
+        }else{
+            return 2;
+        }
+    }
+}
+
 
 void SET_NUMBER_LENGTH(int length)
 {

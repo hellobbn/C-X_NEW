@@ -10,7 +10,7 @@
 //There is a NEW Function named "rand()"
 
 
-//Version 2.1
+//Version 2.1.0.1
 //Update Time 2016/7/7
 
 
@@ -33,23 +33,6 @@
 
 #include "C4-2-2.h"
 //INITIAL
-int JUDGE(int number_length)
-{
-    if (number_length >= 3 && number_length <=9) {
-        SET_NUMBER_LENGTH(number_length);
-        return 0;
-    }else{
-        printf("Invalid input!");
-        printf("Would you like to reset it?(Y/N):");
-        char read;
-        scanf("%s",&read);
-        if (toupper(read) == 'Y') {
-            return 1;
-        }else{
-            return 2;
-        }
-    }
-}
 int main(void)
 {
     static int input_length = 3;
