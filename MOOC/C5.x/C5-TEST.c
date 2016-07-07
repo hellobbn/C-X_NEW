@@ -8,7 +8,7 @@
 //Decomposition of the quality factor
 //
 //Upgrade time: July 7th, 2016
-
+//Version: 1.1
  
 
 #include <stdio.h>
@@ -19,6 +19,9 @@ int main()
 {
     int read_number = 2;
     scanf("%d",&read_number);
+    if (read_number < 2) {
+        printf("Invalid Input");
+    }
     printf("%d=",read_number);
     down(read_number);
     return 0;
