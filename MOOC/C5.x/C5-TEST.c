@@ -21,6 +21,7 @@ int main()
     scanf("%d",&read_number);
     if (read_number < 2) {
         printf("Invalid Input");
+        return 1;
     }
     printf("%d=",read_number);
     down(read_number);
