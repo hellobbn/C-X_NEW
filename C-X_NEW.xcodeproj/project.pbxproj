@@ -64,8 +64,8 @@
 		150E28701D2DEBF700B927DF /* MOOC */ = {
 			isa = PBXGroup;
 			children = (
-				150E28741D2DF3B900B927DF /* C6.x */,
 				150E28711D2DECCB00B927DF /* C5.x */,
+				150E28741D2DF3B900B927DF /* C6.x */,
 			);
 			path = MOOC;
 			sourceTree = "<group>";

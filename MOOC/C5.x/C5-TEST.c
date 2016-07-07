@@ -43,5 +43,5 @@ void down(unsigned long long int x)
             }
         }
         printf("\n");
-    }
+}
     
