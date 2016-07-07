@@ -10,8 +10,8 @@
 //There is a NEW Function named "rand()"
 
 
-//Version 1.1.0.0
-//Update Time 2016/4/10
+//Version 2.0
+//Update Time 2016/7/7
 
 
 
@@ -35,14 +35,15 @@
 
 int main(void)
 {
+    static int number_length = 3;
     //Welcome area
+
     printf("Guessing Game");
     printf("\nBy BBN\n\n");
+    printf("How long do you want(1-10)(Defalut = 3):");//Default
+    scanf("%d", &number_length);
     
-    SET_NUMBER_LENGTH();
-    THINK_NUMBER();
-    LIMIT_CHANCES();
-    GUESSING();
+    SET_NUMBER_LENGTH(number_length);
     return 0;
     
     
