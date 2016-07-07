@@ -7,7 +7,7 @@
         `clang *FILENAME* -o *OUTPUT*`
 
 ######File lists:
-* - [x] Claculator.c
+* - [ ] Claculator.c  -> ld will return error
 * - [x] 2048.c
 
 
