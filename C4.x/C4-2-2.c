@@ -36,21 +36,26 @@
 int main(void)
 {
     static int input_length = 3;
-    //Welcome area
 
+//  Welcome Area
     printf("Guessing Game");
     printf("\nBy BBN\n\n");
 
-    int saver;
-    do {
-        printf("How long do you want(1-9)(Defalut = 3):");//Default
+    int saver;      //This stores misc staff
+    
+    //Judge input area
+    do
+    {
+        printf("How long do you want(1-9)(Defalut = 3):");
         scanf("%d", &input_length);
         saver = JUDGE(input_length);
     } while (saver == 1);
-    if (saver == 2) {
+    if (saver == 2)
+    {
         return 1;
     }
     
+    //End the program
     return 0;
 }
 

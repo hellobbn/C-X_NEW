@@ -14,15 +14,17 @@
 #endif /* C4_2_2_h */
 
 
-
+//  Initial Functions
 void SET_NUMBER_LENGTH(int i);
 void THINK_NUMBER(int set_length);
 void GUESSING(int thinking);
 int JUDGE(int number_length);
 
+//  Judge Function
 int JUDGE(int number_length)
 {
-    if (number_length >= 3 && number_length <=9) {
+    if (number_length >= 3 && number_length <=9)
+    {
         SET_NUMBER_LENGTH(number_length);
         return 0;
     }else{
@@ -30,7 +32,8 @@ int JUDGE(int number_length)
         printf("Would you like to reset it?(Y/N):");
         char read;
         scanf("%s",&read);
-        if (toupper(read) == 'Y') {
+        if (toupper(read) == 'Y')
+        {
             return 1;
         }else{
             return 2;
@@ -38,10 +41,10 @@ int JUDGE(int number_length)
     }
 }
 
-
+//  Mixed Function
 void SET_NUMBER_LENGTH(int length)
 {
-    static int set_number_length = 1;
+    int set_number_length = 1;
 
     int i = 0;
     while (i < length)
@@ -69,22 +72,30 @@ void THINK_NUMBER(int set_length)
 
 void GUESSING(int thinking)
 {
-    //set limit
+//  Initial
+    
     static int set_final_number = 5;
+    int count = 0;
+    static int input_number = 0;
+    
+//  Set Limit
     printf("Now You can set a Final Try Times: Whatever you like\n");
     printf("You will be told te answer if you answered to many times\n");
     printf("Please enter it:");
     scanf("%d", &set_final_number);
-    //GUESSING
-    static int input_number = 0;
     
+    
+//  Guessing
+
     printf("Now The guessing number is ready\n");
     printf("What do you think it is?\n");
     printf("Enter it please:");
     scanf("%d", &input_number);
-    //Checkout
-    int count = 0;
-    while(input_number != thinking){
+    
+    
+//  Check
+    
+        while(input_number != thinking){
         printf("No no no,You are wrong\n");
         count ++;
         if(input_number > thinking){
