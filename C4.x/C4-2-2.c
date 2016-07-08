@@ -6,12 +6,13 @@
 //  Copyright © 2016年 BBN. All rights reserved.
 //
 
-//Guessing Game!
-//There is a NEW Function named "rand()"
+//     Guessing Game!
+//  There is a NEW Function named "rand()"
 
 
-//Version 2.1.0.1
-//Update Time 2016/7/7
+//  Version 2.1.0.1
+//  Update Time 2016/7/7
+//  Status: Beta
 
 
 
@@ -56,7 +57,7 @@ int main(void)
         return 1;
     }
     
-    //End the program
+    //  End the program
     
     return 0;
 }
