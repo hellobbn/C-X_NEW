@@ -32,18 +32,19 @@
 #include <ctype.h>
 
 #include "C4-2-2.h"
-//INITIAL
+//  INITIAL
 int main(void)
 {
     static int input_length = 3;
 
-//  Welcome Area
+    //  Welcome Area
+    
     printf("Guessing Game");
     printf("\nBy BBN\n\n");
 
     int saver;      //This stores misc staff
     
-    //Judge input area
+    //  Judge input area
     do
     {
         printf("How long do you want(1-9)(Defalut = 3):");
@@ -56,6 +57,7 @@ int main(void)
     }
     
     //End the program
+    
     return 0;
 }
 
