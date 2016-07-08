@@ -5,10 +5,11 @@
 //  Created by BBN on 16/7/7.
 //  Copyright © 2016年 BBN. All rights reserved.
 //
-//Decomposition of the quality factor
+//  Decomposition of the quality factor
 //
-//Upgrade time: July 7th, 2016
-//Version: 1.2
+//  Upgrade time: July 7th, 2016
+//  Version: 1.2
+//  Status: release - Done.
  
 
 #include <stdio.h>
