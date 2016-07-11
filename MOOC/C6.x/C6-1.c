@@ -6,11 +6,13 @@
 //  Copyright © 2016年 BBN. All rights reserved.
 //
 //  Calculate average
-//  Version: 1.1
-//  Update time: 7/8/2016
+//  Version: 1.1.1
+//  Update time: 7/11/2016
 //  Status: Alpha.
 
 #include <stdio.h>
+
+void LOOP_Test()
 
 int main()
 {
@@ -93,3 +95,5 @@ int main()
     }
     return 0;
 }
+
+
