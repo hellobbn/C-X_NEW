@@ -1,4 +1,4 @@
-//
+/
 //  C4-2-2.c
 //  C-X
 //
@@ -10,8 +10,8 @@
 //  There is a NEW Function named "rand()"
 
 
-//  Version 2.1.0.1
-//  Update Time 2016/7/7
+//  Version 2.2.0
+//  Update Time 2016/7/18
 //  Status: Beta
 
 

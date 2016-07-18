@@ -17,8 +17,6 @@
 //  Initial Functions
 void SET_NUMBER_LENGTH(int i);
 void THINK_NUMBER(int set_length);
-void GUESSING(int thinking);
-int JUDGE(int number_length);
 
 //  Judge Function
 int JUDGE(int number_length)
@@ -45,37 +43,22 @@ int JUDGE(int number_length)
 void SET_NUMBER_LENGTH(int length)
 {
     int set_number_length = 1;
-
+    int set_final_number = 5;
+    int count = 0;
+    int input_number = 0;
     int i = 0;
+    int thinking_number;
+
     while (i < length)
     {
         set_number_length = set_number_length * 10;
         i++;
     }
-    //    Test
-    //    {
-    //    printf("%d\n%d", number_length, set_number_length);
-    //    }
-    THINK_NUMBER(set_number_length);
 
-}
-
-void THINK_NUMBER(int set_length)
-{
     //  Giving a Number
-    static int thinking_number;
     srand(time(0));
-    thinking_number = rand()%set_length + 1;
-    GUESSING(thinking_number);
+    thinking_number = rand()%set_number_length + 1;
     
-}
-
-void GUESSING(int thinking)
-{
-    //  Initial
-    static int set_final_number = 5;
-    int count = 0;
-    static int input_number = 0;
     
     //  Set Limit
     printf("Now You can set a Final Try Times: Whatever you like\n");
@@ -90,21 +73,21 @@ void GUESSING(int thinking)
     scanf("%d", &input_number);
     
     //  Check
-    while(input_number != thinking){
+    while(input_number != thinking_number){
     printf("No no no,You are wrong\n");
     count ++;
-    if(input_number > thinking)
+    if(input_number > thinking_number)
     {
         printf("It is too large\n");
     }
-    else if(input_number < thinking)
+    else if(input_number < thinking_number)
     {
         printf("It is too small\n");
     }
     if (count == set_final_number)
     {
         printf("Unfortunately You failed....You have tried %d times\n", count);
-        printf("The answer is:%d", thinking);
+        printf("The answer is:%d", thinking_number);
         exit(0);
     }
     printf("Try again:");
