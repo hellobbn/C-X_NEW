@@ -12,7 +12,7 @@
 
 #include <stdio.h>
 
-void LOOP_Test()
+void LOOP_Test();
 
 int main()
 {
