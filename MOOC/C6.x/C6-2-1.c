@@ -13,10 +13,10 @@
 #include <stdio.h>
 
 
-//Function
+//  Function
 int search(int key, int a[], int length);
 
-
+//  main
 int main()
 {
     int a[] = {2,4,6,7,1,3,5,9,11,13,23,14,32};
@@ -27,7 +27,7 @@ int main()
     loc=search(x, a, sizeof(a)/sizeof(a[0]));
     
     if (loc != -1) {
-        printf("%d is at the %d place\n", x , loc);
+        printf("%d is at the %d place\n", x , loc+1);
     }else{
         printf("%d does not exist!\n", x );
     }
@@ -35,12 +35,13 @@ int main()
     return 0;
 }
 
-int search(int key, int a[], int length)
+//  search
+int search(int key, int all[], int length)
 {
     int ret = -1;
     int i;
     for (i = 0; i < length; i++) {
-        if (a[i] == key) {
+        if (all[i] == key) {
             ret = i;
             break;
         }
