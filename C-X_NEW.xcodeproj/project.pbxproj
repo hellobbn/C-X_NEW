@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15355BDB1D2F989D005EF3AA /* C6-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 15355BDA1D2F989D005EF3AA /* C6-1.c */; };
+		1569624B1D3F17C900C928CD /* C6.c in Sources */ = {isa = PBXBuildFile; fileRef = 1569624A1D3F17C900C928CD /* C6.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 		150E28721D2DED4300B927DF /* C5-TEST.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C5-TEST.c"; sourceTree = "<group>"; };
 		150E28751D2DFBCF00B927DF /* C6-init_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-init_test.c"; sourceTree = "<group>"; };
 		15355BDA1D2F989D005EF3AA /* C6-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-1.c"; sourceTree = "<group>"; };
+		1569624A1D3F17C900C928CD /* C6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = C6.c; sourceTree = "<group>"; };
 		156C6B3A1D1F4DF600D00711 /* C-X_NEW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C-X_NEW"; sourceTree = BUILT_PRODUCTS_DIR; };
 		156C6B6C1D1F4FDA00D00711 /* C3-2-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C3-2-2.c"; sourceTree = "<group>"; };
 		156C6B6D1D1F4FDA00D00711 /* C3-2-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C3-2-3.c"; sourceTree = "<group>"; };
@@ -50,6 +51,8 @@
 		15EB10A71D1F963700772D05 /* Calculator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Calculator.c; sourceTree = "<group>"; };
 		15EB10AA1D1F9B1D00772D05 /* 2048.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 2048.c; sourceTree = "<group>"; };
 		15EB10AD1D1FA07700772D05 /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		15FD742B1D3DEAE0008E83AD /* C6-2-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-2-1.c"; sourceTree = "<group>"; };
+		15FD742D1D3DF6CB008E83AD /* C6-2-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-2-2.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,9 @@
 			children = (
 				150E28751D2DFBCF00B927DF /* C6-init_test.c */,
 				15355BDA1D2F989D005EF3AA /* C6-1.c */,
+				15FD742B1D3DEAE0008E83AD /* C6-2-1.c */,
+				15FD742D1D3DF6CB008E83AD /* C6-2-2.c */,
+				1569624A1D3F17C900C928CD /* C6.c */,
 			);
 			path = C6.x;
 			sourceTree = "<group>";
@@ -227,7 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15355BDB1D2F989D005EF3AA /* C6-1.c in Sources */,
+				1569624B1D3F17C900C928CD /* C6.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +327,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_CFLAGS = "-Wall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -331,7 +340,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_CFLAGS = "-Wall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
