@@ -18,8 +18,8 @@ int main()
 	int a,b = 0;
 	while(cnt < 2)
 	{
-		scanf("%d%d",%a,%b);
-                saver[a] = b;
+		scanf("%d%d",&a,&b);
+                saver[a] += b;
 		if(a ==0)
 			cnt++;
 	}
@@ -27,19 +27,19 @@ int main()
 	for(int i = 100; i >= 0; i --)
 	{
 		if(saver[i]==0)
-				countinue;
+				continue;
 		if( i == 0 && cnt != 1 && saver[i] > 0 ){
-			printf("+%d",saver[i]);}
-		else if(i == 0 && cnt = 1&& saver[i] > 0){
-			printf("%d",saver[i]);
+			printf("+%dx",saver[i]);}
+		else if(i == 0 && cnt == 1&& saver[i] > 0){
+			printf("%dx",saver[i]);
 		}else if(i == 0 &&  saver[i] < 0){
-			printf("%d",saver[i]);
-		}else if(i > 0 && cnt = 1){
-		        printf("%d",saver[i]);
+			printf("%dx",saver[i]);
+		}else if(i > 0 && cnt == 1){
+		        printf("%dx%d",saver[i],i);
 		}else if(i > 0 && cnt != 1 && saver[i] < 0){
-			printf("%d",saver[i]);
+			printf("%dx%d",saver[i],i);
 		}else if(i > 0 && cnt != 1 && saver[i] > 0){
-			printf("+%d",saver[i]:
+			printf("+%dx%d",saver[i],i);
 		}
 
 	}
