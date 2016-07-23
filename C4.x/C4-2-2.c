@@ -36,7 +36,7 @@
 //  INITIAL
 int main(void)
 {
-    static int input_length = 3;
+    int input_length = 3;
 
     //  Welcome Area
     
@@ -61,4 +61,3 @@ int main(void)
     
     return 0;
 }
-
