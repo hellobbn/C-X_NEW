@@ -11,8 +11,8 @@
 
 
 //  Version 2.2.0.1
-//  Update Time 2016/7/18
-//  Status: Beta
+//  Update Time 2016/7/23
+//  Status: release
 
 
 
