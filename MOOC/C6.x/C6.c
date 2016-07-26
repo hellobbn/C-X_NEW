@@ -23,13 +23,15 @@ int main()
     {
         if(saver[i]==0&& i!= 0)                                                                                                                                                                                                                 continue;
         if(saver[i] != 1){
-            if( i == 0 && cnt != 1 && saver[i] >= 0 ){
-                printf("+%d",saver[i]);}
-            else if(i == 0 && cnt == 1&& saver[i] >= 0){
-                printf("%d",saver[i]);
-            }
-            else if(i == 0 &&  saver[i] < 0){
-                printf("%d",saver[i]);
+            if (i == 0) {
+                if(cnt != 1 && saver[i] >= 0 ){
+                    printf("+%d",saver[i]);}
+                else if(cnt == 1&& saver[i] >= 0){
+                    printf("%d",saver[i]);
+                }
+                else if(saver[i] < 0){
+                    printf("%d",saver[i]);
+                }
             }else if(i == 1){
                 if(saver[i] > 0 && cnt != 1){
                     printf("+%dx",saver[i]);
@@ -37,15 +39,16 @@ int main()
                 if(saver[i] < 0 && cnt != 1){
                     printf("%dx",saver[i]);
                 }
-                if(cnt == 1)
+                if(cnt == 1){
                     printf("%dx",saver[i]);
-            }
-            else if(i > 0 && cnt == 1){
+                }
+            }else if(i > 0 && cnt == 1){
                 printf("%dx%d",saver[i],i);
             }else if(i > 0 && cnt != 1 && saver[i] < 0){
                 printf("%dx%d",saver[i],i);
             }else if(i > 0 && cnt != 1 && saver[i] > 0){
-                printf("+%dx%d",saver[i],i);                                                                                                                                                                                    }
+                printf("+%dx%d",saver[i],i);
+            }
         }else{                                                  //saver[i] == 1
             if( i == 0 && cnt != 1){
                 printf("+%d",saver[i]);
@@ -62,7 +65,7 @@ int main()
                 printf("x%d",i);
             }else if(i > 0 && cnt != 1){
                     printf("+x%d",i);
-                }
+            }
         }
         cnt++;
         
