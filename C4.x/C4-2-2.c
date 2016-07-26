@@ -10,9 +10,9 @@
 //  There is a NEW Function named "rand()"
 
 
-//  Version 2.2.0.1
-//  Update Time 2016/7/23
-//  Status: release
+//  Version 2.3.0
+//  Update Time 2016/7/26
+//  Status: nearly done
 
 
 
@@ -27,13 +27,10 @@
 //    return 0;
 //}
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <ctype.h>
-
+// include .. 
 #include "C4-2-2.h"
-//  INITIAL
+
+
 int main(void)
 {
     int input_length = 3;
