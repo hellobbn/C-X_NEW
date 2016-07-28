@@ -10,13 +10,13 @@
 //  There is a NEW Function named "rand()"
 
 
-//  Version 2.3.0
-//  Update Time 2016/7/26
+//  Version 2.3.1
+//  Update Time 2016/7/28
 //  Status: nearly done
 
 
 
-/*rand Sample*/
+/************   rand Sample **************/
 //int main(void)
 //{
 //    srand(time(0));

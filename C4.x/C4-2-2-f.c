@@ -31,6 +31,23 @@ int JUDGE(int number_length)
     }
 }
 
+int JUDGE_LIMIT(int limit)
+{
+    if (limit < 5) {
+        printf("WARNING:   You have entered a limit <= 4 -- this is not possible!\n");
+        printf("Would you like to enter again?(Y/N)");
+        char read;
+        scanf("%s",&read);
+        if (toupper(read) == 'Y') {
+            return 4;
+        }else{
+            return 5;
+        }
+    }else{
+        return 6;
+    }
+}
+
 //  Mixed Function
 void P_MAIN(int length)
 {
@@ -54,10 +71,12 @@ void P_MAIN(int length)
     
     //  Set Limit
     printf("Now You can set a Final Try Times: Whatever you like\n");
-    printf("You will be told te answer if you answered to many times\n");
-    printf("Please enter it:");
-    scanf("%d", &set_final_number);
-    
+    printf("You will be told the answer if you answered too many times\n");
+    do {
+        printf("Please enter it:");
+        scanf("%d", &set_final_number);
+    } while (JUDGE_LIMIT(set_final_number) == 4);
+
     //  Guessing
     printf("Now The guessing number is ready\n");
     printf("What do you think it is?\n");
@@ -65,25 +84,25 @@ void P_MAIN(int length)
     scanf("%d", &input_number);
     
     //  Check
-    while(input_number != thinking_number){
-    printf("No no no,You are wrong\n");
-    count ++;
-    if(input_number > thinking_number)
+    while(input_number != thinking_number)
     {
-        printf("It is too large\n");
-    }
-    else if(input_number < thinking_number)
-    {
-        printf("It is too small\n");
-    }
-    if (count == set_final_number)
-    {
-        printf("Unfortunately You failed....You have tried %d times\n", count);
-        printf("The answer is:%d", thinking_number);
-        exit(0);
-    }
-    printf("Try again:");
-    scanf("%d", &input_number);
+        printf("No no no,You are wrong\n");
+        count ++;
+        if(input_number > thinking_number)
+        {
+            printf("It is too large\n");
+        }else if(input_number < thinking_number)
+        {
+            printf("It is too small\n");
+        }
+        if (count == set_final_number)
+        {
+            printf("Unfortunately You failed....You have tried %d times\n", count);
+            printf("The answer is:%d", thinking_number);
+            exit(0);
+        }
+        printf("Try again:");
+        scanf("%d", &input_number);
     }
     
     printf("Finally You did it. You have tried %d Times", count);
