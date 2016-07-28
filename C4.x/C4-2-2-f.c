@@ -18,7 +18,7 @@ int JUDGE(int number_length)
         P_MAIN(number_length);
         return 0;
     }else{
-        printf("Invalid input!");
+        printf("\aInvalid input!");
         printf("Would you like to reset it?(Y/N):");
         char read;
         scanf("%s",&read);
@@ -34,7 +34,7 @@ int JUDGE(int number_length)
 int JUDGE_LIMIT(int limit)
 {
     if (limit < 5) {
-        printf("WARNING:   You have entered a limit <= 4 -- this is not possible!\n");
+        printf("\aWARNING:   You have entered a limit <= 4 -- this is not possible!\n");
         printf("Would you like to enter again?(Y/N)");
         char read;
         scanf("%s",&read);
@@ -70,7 +70,7 @@ void P_MAIN(int length)
     
     
     //  Set Limit
-    printf("Now You can set a Final Try Times: Whatever you like\n");
+    printf("\n\nNow You can set a Final Try Times: Whatever you like\n");
     printf("You will be told the answer if you answered too many times\n");
     do {
         printf("Please enter it:");
