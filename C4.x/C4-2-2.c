@@ -10,7 +10,7 @@
 //  There is a NEW Function named "rand()"
 
 
-//  Version 2.3.1
+//  Version 2.3.2
 //  Update Time 2016/7/28
 //  Status: nearly done
 

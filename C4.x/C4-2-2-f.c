@@ -18,7 +18,7 @@ int JUDGE(int number_length)
         P_MAIN(number_length);
         return 0;
     }else{
-        printf("\aInvalid input!");
+        printf("\aInvalid input!\n");
         printf("Would you like to reset it?(Y/N):");
         char read;
         scanf("%s",&read);
