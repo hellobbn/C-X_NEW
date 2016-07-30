@@ -37,8 +37,8 @@ int main(void)
 
     //  Welcome Area
     
-    printf("Guessing Game");
-    printf("\nBy BBN\n\n");
+    printf("***************Guessing Game***************");
+    printf("\n***************By BBN*****************\n\n");
 
     int saver;      //This stores misc staff
     
