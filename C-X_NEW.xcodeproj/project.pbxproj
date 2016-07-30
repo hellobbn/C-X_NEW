@@ -6,6 +6,11 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		152192F01D4A358000D2986C /* C4-2-2.c in Sources */ = {isa = PBXBuildFile; fileRef = 156C6B721D1F4FEB00D00711 /* C4-2-2.c */; };
+		152192F11D4A358200D2986C /* C4-2-2-f.c in Sources */ = {isa = PBXBuildFile; fileRef = 150767721D49999900AF05C4 /* C4-2-2-f.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		156C6B381D1F4DF600D00711 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -22,6 +27,7 @@
 		150767721D49999900AF05C4 /* C4-2-2-f.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C4-2-2-f.c"; sourceTree = "<group>"; };
 		150E28721D2DED4300B927DF /* C5-TEST.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C5-TEST.c"; sourceTree = "<group>"; };
 		150E28751D2DFBCF00B927DF /* C6-init_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-init_test.c"; sourceTree = "<group>"; };
+		152192EE1D4A319F00D2986C /* C7-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C7-1.c"; sourceTree = "<group>"; };
 		15355BDA1D2F989D005EF3AA /* C6-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-1.c"; sourceTree = "<group>"; };
 		1569624A1D3F17C900C928CD /* C6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = C6.c; sourceTree = "<group>"; };
 		156C6B3A1D1F4DF600D00711 /* C-X_NEW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C-X_NEW"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +74,7 @@
 			children = (
 				150E28711D2DECCB00B927DF /* C5.x */,
 				150E28741D2DF3B900B927DF /* C6.x */,
+				152192ED1D4A315300D2986C /* C7.x */,
 			);
 			path = MOOC;
 			sourceTree = "<group>";
@@ -90,6 +97,14 @@
 				1569624A1D3F17C900C928CD /* C6.c */,
 			);
 			path = C6.x;
+			sourceTree = "<group>";
+		};
+		152192ED1D4A315300D2986C /* C7.x */ = {
+			isa = PBXGroup;
+			children = (
+				152192EE1D4A319F00D2986C /* C7-1.c */,
+			);
+			path = C7.x;
 			sourceTree = "<group>";
 		};
 		156C6B311D1F4DF600D00711 = {
@@ -231,6 +246,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152192F01D4A358000D2986C /* C4-2-2.c in Sources */,
+				152192F11D4A358200D2986C /* C4-2-2-f.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +346,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = "-Wall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
