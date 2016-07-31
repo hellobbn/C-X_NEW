@@ -16,9 +16,17 @@ void COMPARE(int *max_saver,int *min_saver,int length,int a[]);
 
 int main()
 {
-    int a[] = {1,2,3,4,5,8,7,6,9,10,29};
+    int len;
+    printf("How many number do you need:");
+    scanf("%d",&len);
+    int a[len];
     int max, min;
-    COMPARE(&max, &min, sizeof(a)/sizeof(a[0]), a);
+    printf("Enter the number please(a number once):\n");
+    for (int i = 0; i < len; i++) {
+        printf("(%d/%d) %d --> ",i,len,i);
+        scanf("%d",&a[i]);
+    }
+    COMPARE(&max, &min, len, a);
     printf("The Max is %d\nThe min is %d\n",max,min);
     return 0;
 }
