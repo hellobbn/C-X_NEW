@@ -34,17 +34,20 @@ int JUDGE(int number_length)
 int JUDGE_LIMIT(int limit)
 {
     if (limit < 5) {
-        printf("\aWARNING:   You have entered a limit <= 4 -- this is not possible!\n");
-        printf("Would you like to enter again?(Y/N)");
+        printf("\n\a**WARNING**:\n   You have entered a limit <= 4 -- this is not possible!\n");
+        printf("Countinue?(Y/N)");
         char read;
         scanf("%s",&read);
         if (toupper(read) == 'Y') {
+            return 5;
+        }else if(toupper(read) == 'N'){
             return 4;
         }else{
-            return 5;
+            printf("Invalid Input!\n");
+            return 6;
         }
     }else{
-        return 6;
+        return 7;
     }
 }
 
@@ -70,12 +73,12 @@ void P_MAIN(int length)
     
     
     //  Set Limit
-    printf("\n\nNow You can set a Final Try Times: Whatever you like\n");
+    printf("\n\n******************************************\n**************IMPORTANT NOTE**************\n******************************************\n\nNow You can set a Final Try Times: Whatever you like\n");
     printf("You will be told the answer if you answered too many times\n");
     do {
-        printf("Please enter it:");
+        printf("Please enter the limit number:");
         scanf("%d", &set_final_number);
-    } while (JUDGE_LIMIT(set_final_number) == 4);
+    } while (JUDGE_LIMIT(set_final_number) != 5);
 
     //  Guessing
     printf("Now The guessing number is ready\n");
@@ -98,7 +101,7 @@ void P_MAIN(int length)
         if (count == set_final_number)
         {
             printf("Unfortunately You failed....You have tried %d times\n", count);
-            printf("The answer is:%d", thinking_number);
+            printf("The answer is:%d\n", thinking_number);
             exit(0);
         }
         printf("Try again:");

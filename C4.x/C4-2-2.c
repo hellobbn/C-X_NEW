@@ -10,22 +10,10 @@
 //  There is a NEW Function named "rand()"
 
 
-//  Version 2.3.2
-//  Update Time 2016/7/28
+//  Version 2.4.0
+//  Update Time 2016/8/11
 //  Status: nearly done
 
-
-
-/************   rand Sample **************/
-//int main(void)
-//{
-//    srand(time(0));
-//    int a = rand();
-//    
-//    printf("%d", a);
-//    
-//    return 0;
-//}
 
 // include .. 
 #include "C4-2-2.h"
@@ -38,7 +26,7 @@ int main(void)
     //  Welcome Area
     
     printf("***************Guessing Game***************");
-    printf("\n***************By BBN*****************\n\n");
+    printf("\n*****************By BBN********************\n\n");
 
     int saver;      //This stores misc staff
     
