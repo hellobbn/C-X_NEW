@@ -1,13 +1,13 @@
-###Other Source
+#Other Source
   ##This Folder is used to store my **interested sources**
         Now Mostly from [here](https://www.shiyanlou.com/)
-    Use this command to compile\<br>
-        `cc`\<br>
+Use this command to compile:
+        `cc`
     or\<br>
-        `clang *FILENAME* -o *OUTPUT*`
+        ` clang *FILENAME* -o *OUTPUT* `
 
 ######File lists:
-* - [ ] Claculator.c  -> ld will return error
-* - [x] 2048.c
+* - [x] Claculator.c  -> ld will return error
+* - [ ] 2048.c
 
 
