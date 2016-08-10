@@ -26,18 +26,18 @@ int main()
     return 0;
 }
 
-void minmax(int *a, int len, int *max, int *min)
+void minmax(int *b, int len, int *max, int *min)
 {
-    printf("minmax sizeof(a) = %lu\n",sizeof(a));
-    printf("maxmin *a = %p\n",a);
-    a[0] = 1000;
-    *min = *max = a[0];
+    printf("minmax sizeof(b) = %lu\n",sizeof(b));
+    printf("maxmin *b = %p\n",b);
+    b[0] = 1000;
+    *min = *max = b[0];
     for (int i = 1; i < len; i++) {
-        if (a[i] > *max) {
-            *max = a[i];
+        if (b[i] > *max) {
+            *max = b[i];
         }
-        if (a[i] < *min) {
-            *min = a[i];
+        if (b[i] < *min) {
+            *min = b[i];
         }
     }
 }
