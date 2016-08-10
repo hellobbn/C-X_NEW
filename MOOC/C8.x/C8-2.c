@@ -2,7 +2,7 @@
 //  C8-2.c
 //  C-X_NEW
 //
-//  Created by 陈泺帆 on 2016/7/31.
+//  Created by BBN on 2016/7/31.
 //  Copyright © 2016年 BBN. All rights reserved.
 //
 //  Pointer Example - 2
