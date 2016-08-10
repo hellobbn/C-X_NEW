@@ -50,6 +50,7 @@
 		156C6B861D1F503600D00711 /* C5-3-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-3-3.c"; sourceTree = "<group>"; };
 		156C6B871D1F503600D00711 /* C5-Test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-Test.c"; sourceTree = "<group>"; };
 		156C6B881D1F505A00D00711 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		15CB66BF1D5B4682008D4CC3 /* C8-4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C8-4.c"; sourceTree = "<group>"; };
 		15EB10A71D1F963700772D05 /* Calculator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Calculator.c; sourceTree = "<group>"; };
 		15EB10AA1D1F9B1D00772D05 /* 2048.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 2048.c; sourceTree = "<group>"; };
 		15EB10AD1D1FA07700772D05 /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -196,6 +197,7 @@
 				15EF15A51D4CF0BC00A1E92C /* C8-1.c */,
 				15EF15A71D4D71A000A1E92C /* C8-2.c */,
 				15EF15A91D4D83AD00A1E92C /* C8-3.c */,
+				15CB66BF1D5B4682008D4CC3 /* C8-4.c */,
 			);
 			path = C8.x;
 			sourceTree = "<group>";
@@ -355,7 +357,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				OTHER_CFLAGS = "-Wall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -369,7 +371,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				OTHER_CFLAGS = "-Wall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
