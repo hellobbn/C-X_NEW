@@ -11,11 +11,15 @@
 
 int main()
 {
+    int i;
     char *s = "Hello, World!";
     char *s2 = "Hello, World!";
     
+    printf("&i = %p\n", &i);
     printf("*s = %p\n",s);
     printf("*s2 = %p\n", s2);
+    
+//    s[0] = 'h';             // Will FAIL to RUN
     
     return 0;
 }
