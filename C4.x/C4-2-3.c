@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main()
+int avg_main()
 {
     int sum = 0;
     int counter = 1;

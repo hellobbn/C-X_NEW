@@ -14,7 +14,7 @@
 //While and For is where I am weak........
 //This program is designed to calculate the nunber “位数”
 
-int main()
+int len_main(void)
 {
     //Init
     unsigned long long number = 0;
@@ -27,6 +27,6 @@ int main()
         number = number / 10;
         counter ++;
     }
-    printf("%d\n", counter);
+    printf("The number's length is: %d\n", counter);
     return 0;
 }

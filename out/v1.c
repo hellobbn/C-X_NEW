@@ -6,7 +6,7 @@
 //  Copyright © 2016年 BBN. All rights reserved.
 //
 //  BBN-ToolKit
-//  Version: 0.0.1
+//  Version: 0.0.3
 //  Update Time: 2016/8/11
 //  Status: Staging
 
@@ -20,16 +20,25 @@ int main()
     printf("The tool kit now has the functions below:\n");
     
     printf("1.Guessing Game\n");
+    printf("2.Number Length\n");
+    printf("3.Calculate Average.\n");
     
     printf("please choose one:");
     scanf("%d",&choice);
     
     switch (choice) {
         case 1:
-            //Calculator.
+            //Guessing Game
             cal_main();
             break;
-            
+        case 2:
+            //Number Length
+            len_main();
+            break;
+        case 3:
+            //Average
+            avg_main();
+            break;
         default:
             printf("Invalid Input!");
             break;

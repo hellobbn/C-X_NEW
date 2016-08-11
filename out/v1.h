@@ -14,3 +14,4 @@
 #endif /* v1_h */
 
 int cal_main(void);
+int len_main(void);
