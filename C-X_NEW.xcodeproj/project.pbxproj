@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15993B221D5B8730003207DE /* C4-2-2.c in Sources */ = {isa = PBXBuildFile; fileRef = 156C6B721D1F4FEB00D00711 /* C4-2-2.c */; };
-		15993B231D5B8733003207DE /* C4-2-2-f.c in Sources */ = {isa = PBXBuildFile; fileRef = 150767721D49999900AF05C4 /* C4-2-2-f.c */; };
+		15B6A7E61D5C2F410070FD75 /* C9.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B6A7E51D5C2F410070FD75 /* C9.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,15 +51,24 @@
 		156C6B871D1F503600D00711 /* C5-Test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-Test.c"; sourceTree = "<group>"; };
 		156C6B881D1F505A00D00711 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		15993B201D5B76C9003207DE /* C9-1-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C9-1-2.c"; sourceTree = "<group>"; };
+		15B6A7DA1D5C1C270070FD75 /* C9-2-2-mylen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-2-2-mylen.c"; sourceTree = "<group>"; };
+		15B6A7DC1D5C1D0F0070FD75 /* C9-2-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "C9-2-2.h"; sourceTree = "<group>"; };
+		15B6A7DD1D5C1F310070FD75 /* C9-2-3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-2-3.c"; sourceTree = "<group>"; };
+		15B6A7DF1D5C227D0070FD75 /* C9-2-4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-2-4.c"; sourceTree = "<group>"; };
+		15B6A7E11D5C242D0070FD75 /* C9-2-5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-2-5.c"; sourceTree = "<group>"; };
+		15B6A7E31D5C25930070FD75 /* C9-2-6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-2-6.c"; sourceTree = "<group>"; };
+		15B6A7E51D5C2F410070FD75 /* C9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = C9.c; sourceTree = "<group>"; };
 		15CB66BF1D5B4682008D4CC3 /* C8-4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C8-4.c"; sourceTree = "<group>"; };
 		15CB66C51D5B68FF008D4CC3 /* C9-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-1.c"; sourceTree = "<group>"; };
 		15CB66C71D5B6F69008D4CC3 /* C9-1-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-1-1.c"; sourceTree = "<group>"; };
+		15DE9B721D5C008400D70932 /* C9-2-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-2-1.c"; sourceTree = "<group>"; };
 		15EB10A71D1F963700772D05 /* Calculator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Calculator.c; sourceTree = "<group>"; };
 		15EB10AA1D1F9B1D00772D05 /* 2048.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 2048.c; sourceTree = "<group>"; };
 		15EB10AD1D1FA07700772D05 /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		15EF15A51D4CF0BC00A1E92C /* C8-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C8-1.c"; sourceTree = "<group>"; };
 		15EF15A71D4D71A000A1E92C /* C8-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C8-2.c"; sourceTree = "<group>"; };
 		15EF15A91D4D83AD00A1E92C /* C8-3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C8-3.c"; sourceTree = "<group>"; };
+		15F869311D5C077C000C30C0 /* C9-2-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-2-2.c"; sourceTree = "<group>"; };
 		15FD742B1D3DEAE0008E83AD /* C6-2-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-2-1.c"; sourceTree = "<group>"; };
 		15FD742D1D3DF6CB008E83AD /* C6-2-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-2-2.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,6 +200,15 @@
 				15CB66C51D5B68FF008D4CC3 /* C9-1.c */,
 				15CB66C71D5B6F69008D4CC3 /* C9-1-1.c */,
 				15993B201D5B76C9003207DE /* C9-1-2.c */,
+				15DE9B721D5C008400D70932 /* C9-2-1.c */,
+				15F869311D5C077C000C30C0 /* C9-2-2.c */,
+				15B6A7DA1D5C1C270070FD75 /* C9-2-2-mylen.c */,
+				15B6A7DC1D5C1D0F0070FD75 /* C9-2-2.h */,
+				15B6A7DD1D5C1F310070FD75 /* C9-2-3.c */,
+				15B6A7DF1D5C227D0070FD75 /* C9-2-4.c */,
+				15B6A7E11D5C242D0070FD75 /* C9-2-5.c */,
+				15B6A7E31D5C25930070FD75 /* C9-2-6.c */,
+				15B6A7E51D5C2F410070FD75 /* C9.c */,
 			);
 			path = C9.x;
 			sourceTree = "<group>";
@@ -276,8 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15993B221D5B8730003207DE /* C4-2-2.c in Sources */,
-				15993B231D5B8733003207DE /* C4-2-2-f.c in Sources */,
+				15B6A7E61D5C2F410070FD75 /* C9.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				OTHER_CFLAGS = "-Wall";
@@ -385,7 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				OTHER_CFLAGS = "-Wall";
