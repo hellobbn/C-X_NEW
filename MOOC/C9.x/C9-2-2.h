@@ -15,4 +15,4 @@
 #include <stdio.h>
 #include <string.h>
 
-int mylen(const char *s);
+size_t mylen(const char *s);

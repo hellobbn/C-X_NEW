@@ -16,7 +16,7 @@ int main()
 {
     char line[] = "Hello";
     printf("strlen = %lu\n",strlen(line));
-    printf("mylen = %d\n", mylen(line));
+    printf("mylen = %lu\n", mylen(line));
     printf("sizeof = %lu\n",sizeof(line));
     
     return 0;

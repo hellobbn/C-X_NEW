@@ -9,9 +9,9 @@
 #include "C9-2-2.h"
 
 
-int mylen(const char *s)
+size_t mylen(const char *s)
 {
-    int cnt = 0;
+    size_t cnt = 0;
     while (*(s+cnt) != '\0') {
         cnt ++;
     }
