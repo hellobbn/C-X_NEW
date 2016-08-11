@@ -7,6 +7,7 @@
 //
 //  String Functions
 //  strcmp()
+//  Another Version strncmp() -- use man strncmp for more information!
 //
 
 #include <stdio.h>
