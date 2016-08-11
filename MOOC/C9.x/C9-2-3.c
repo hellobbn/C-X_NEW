@@ -18,4 +18,6 @@ int main()
     char b[] = "Ebcd";
     
     printf("%d\n",strcmp(a, b));
+    
+    return 0;
 }
