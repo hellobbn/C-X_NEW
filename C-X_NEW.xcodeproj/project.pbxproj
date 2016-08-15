@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1527E09C1D6200F800B794AD /* C10-2-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 1527E09B1D6200F800B794AD /* C10-2-1.c */; };
+		1527E0A21D6207EB00B794AD /* C10-2-3.c in Sources */ = {isa = PBXBuildFile; fileRef = 1527E0A11D6207EB00B794AD /* C10-2-3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,9 @@
 		152192EE1D4A319F00D2986C /* C7-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C7-1.c"; sourceTree = "<group>"; };
 		1527E0991D61FFF800B794AD /* C10-1-4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-4.c"; sourceTree = "<group>"; };
 		1527E09B1D6200F800B794AD /* C10-2-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-2-1.c"; sourceTree = "<group>"; };
+		1527E09D1D62042300B794AD /* C10-2-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-2-2.c"; sourceTree = "<group>"; };
+		1527E09F1D62066900B794AD /* C10-2-2-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-2-2-1.c"; sourceTree = "<group>"; };
+		1527E0A11D6207EB00B794AD /* C10-2-3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-2-3.c"; sourceTree = "<group>"; };
 		15355BDA1D2F989D005EF3AA /* C6-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-1.c"; sourceTree = "<group>"; };
 		15442AA11D61EF6E009CE572 /* C10-1-3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-3.c"; sourceTree = "<group>"; };
 		1569624A1D3F17C900C928CD /* C6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = C6.c; sourceTree = "<group>"; };
@@ -220,6 +223,9 @@
 				15442AA11D61EF6E009CE572 /* C10-1-3.c */,
 				1527E0991D61FFF800B794AD /* C10-1-4.c */,
 				1527E09B1D6200F800B794AD /* C10-2-1.c */,
+				1527E09D1D62042300B794AD /* C10-2-2.c */,
+				1527E09F1D62066900B794AD /* C10-2-2-1.c */,
+				1527E0A11D6207EB00B794AD /* C10-2-3.c */,
 			);
 			path = C10.x;
 			sourceTree = "<group>";
@@ -323,7 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1527E09C1D6200F800B794AD /* C10-2-1.c in Sources */,
+				1527E0A21D6207EB00B794AD /* C10-2-3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
