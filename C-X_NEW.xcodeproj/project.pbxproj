@@ -6,14 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		159454DE1D5C678C00C589FD /* v1.c in Sources */ = {isa = PBXBuildFile; fileRef = 159454DC1D5C678C00C589FD /* v1.c */; };
-		159454DF1D5C6B0E00C589FD /* C4-2-2.c in Sources */ = {isa = PBXBuildFile; fileRef = 156C6B721D1F4FEB00D00711 /* C4-2-2.c */; };
-		159454E01D5C6B1000C589FD /* C4-2-2-f.c in Sources */ = {isa = PBXBuildFile; fileRef = 150767721D49999900AF05C4 /* C4-2-2-f.c */; };
-		159454E11D5C6C7500C589FD /* C4-1-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 156C6B6F1D1F4FEB00D00711 /* C4-1-1.c */; };
-		159454E21D5C6D1000C589FD /* C4-2-3.c in Sources */ = {isa = PBXBuildFile; fileRef = 156C6B741D1F4FEB00D00711 /* C4-2-3.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		156C6B381D1F4DF600D00711 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -32,6 +24,7 @@
 		150E28751D2DFBCF00B927DF /* C6-init_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "C6-init_test.c"; path = "../C6.x/C6-init_test.c"; sourceTree = "<group>"; };
 		152192EE1D4A319F00D2986C /* C7-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C7-1.c"; sourceTree = "<group>"; };
 		15355BDA1D2F989D005EF3AA /* C6-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-1.c"; sourceTree = "<group>"; };
+		15442AA11D61EF6E009CE572 /* C10-1-3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-3.c"; sourceTree = "<group>"; };
 		1569624A1D3F17C900C928CD /* C6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = C6.c; sourceTree = "<group>"; };
 		156C6B3A1D1F4DF600D00711 /* C-X_NEW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C-X_NEW"; sourceTree = BUILT_PRODUCTS_DIR; };
 		156C6B6C1D1F4FDA00D00711 /* C3-2-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C3-2-2.c"; sourceTree = "<group>"; };
@@ -57,6 +50,8 @@
 		159454DC1D5C678C00C589FD /* v1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = v1.c; sourceTree = "<group>"; };
 		159454DD1D5C678C00C589FD /* v1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v1.h; sourceTree = "<group>"; };
 		15993B201D5B76C9003207DE /* C9-1-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C9-1-2.c"; sourceTree = "<group>"; };
+		15B0D0831D61E90B00C0CA26 /* C10-1-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-1.c"; sourceTree = "<group>"; };
+		15B0D0851D61EB6B00C0CA26 /* C10-1-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-2.c"; sourceTree = "<group>"; };
 		15B6A7DA1D5C1C270070FD75 /* C9-2-2-mylen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-2-2-mylen.c"; sourceTree = "<group>"; };
 		15B6A7DC1D5C1D0F0070FD75 /* C9-2-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "C9-2-2.h"; sourceTree = "<group>"; };
 		15B6A7DD1D5C1F310070FD75 /* C9-2-3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-2-3.c"; sourceTree = "<group>"; };
@@ -98,6 +93,7 @@
 				152192ED1D4A315300D2986C /* C7.x */,
 				15EF15A41D4CF03000A1E92C /* C8.x */,
 				15CB66C41D5B68D7008D4CC3 /* C9.x */,
+				15B0D0821D61E89600C0CA26 /* C10.x */,
 			);
 			path = MOOC;
 			sourceTree = "<group>";
@@ -210,6 +206,16 @@
 			path = out;
 			sourceTree = "<group>";
 		};
+		15B0D0821D61E89600C0CA26 /* C10.x */ = {
+			isa = PBXGroup;
+			children = (
+				15B0D0831D61E90B00C0CA26 /* C10-1-1.c */,
+				15B0D0851D61EB6B00C0CA26 /* C10-1-2.c */,
+				15442AA11D61EF6E009CE572 /* C10-1-3.c */,
+			);
+			path = C10.x;
+			sourceTree = "<group>";
+		};
 		15CB66C41D5B68D7008D4CC3 /* C9.x */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,11 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				159454E11D5C6C7500C589FD /* C4-1-1.c in Sources */,
-				159454DE1D5C678C00C589FD /* v1.c in Sources */,
-				159454DF1D5C6B0E00C589FD /* C4-2-2.c in Sources */,
-				159454E01D5C6B1000C589FD /* C4-2-2-f.c in Sources */,
-				159454E21D5C6D1000C589FD /* C4-2-3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +410,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = "-Wall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -423,7 +424,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = "-Wall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
