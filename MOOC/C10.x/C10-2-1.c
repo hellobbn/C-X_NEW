@@ -9,14 +9,15 @@
 //
 
 #include <stdio.h>
-int main()
-{
-    struct date{
+
+struct date{
         int month;
         int day;
         int year;
     };
     
+int main(){
+
     struct date today;
     
     today.day = 15;
