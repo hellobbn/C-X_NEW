@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1527E09C1D6200F800B794AD /* C10-2-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 1527E09B1D6200F800B794AD /* C10-2-1.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		156C6B381D1F4DF600D00711 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,6 +27,8 @@
 		150E28721D2DED4300B927DF /* C5-TEST.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C5-TEST.c"; sourceTree = "<group>"; };
 		150E28751D2DFBCF00B927DF /* C6-init_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "C6-init_test.c"; path = "../C6.x/C6-init_test.c"; sourceTree = "<group>"; };
 		152192EE1D4A319F00D2986C /* C7-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C7-1.c"; sourceTree = "<group>"; };
+		1527E0991D61FFF800B794AD /* C10-1-4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-4.c"; sourceTree = "<group>"; };
+		1527E09B1D6200F800B794AD /* C10-2-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-2-1.c"; sourceTree = "<group>"; };
 		15355BDA1D2F989D005EF3AA /* C6-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-1.c"; sourceTree = "<group>"; };
 		15442AA11D61EF6E009CE572 /* C10-1-3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-3.c"; sourceTree = "<group>"; };
 		1569624A1D3F17C900C928CD /* C6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = C6.c; sourceTree = "<group>"; };
@@ -212,6 +218,8 @@
 				15B0D0831D61E90B00C0CA26 /* C10-1-1.c */,
 				15B0D0851D61EB6B00C0CA26 /* C10-1-2.c */,
 				15442AA11D61EF6E009CE572 /* C10-1-3.c */,
+				1527E0991D61FFF800B794AD /* C10-1-4.c */,
+				1527E09B1D6200F800B794AD /* C10-2-1.c */,
 			);
 			path = C10.x;
 			sourceTree = "<group>";
@@ -315,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1527E09C1D6200F800B794AD /* C10-2-1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
