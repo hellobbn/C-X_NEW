@@ -7,7 +7,6 @@
 //
 
 #include <stdio.h>
-#include <stdbool.h>
 
 //  struct
 struct date{
