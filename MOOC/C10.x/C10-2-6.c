@@ -15,14 +15,17 @@ struct point {
     int y;
 };
 
+
 void get_struct(struct point *in)
 {
-    scanf("%d",&in->x);
-    scanf("%d",&in->y);
+    //  Method 1
+    scanf("%d",&(*in).x);
+    scanf("%d",&(*in).y);
 }
 
 void output(struct point *out)
 {
+    //  Method 2 -- which I prefer 
     printf("x = %d\n",out->x);
     printf("y = %d\n",out->y);
 }
