@@ -14,7 +14,7 @@
 #include <signal.h>
 
 //4x4方格
-int a[4][4] = {0};
+int a[4][4] = {{0}};
 //方格里的空格数
 int empty;
 
