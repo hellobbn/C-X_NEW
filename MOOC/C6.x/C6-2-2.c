@@ -5,14 +5,13 @@
 //  Created by BBN on 16/7/19.
 //  Copyright © 2016年 BBN. All rights reserved.
 //
-//  Version: 1.1.0
+//  Version: 1.2.0
 //  Update date: 7/20/2016
-//  Status: Beta
+//  Status: release
 //
 
 
 #include <stdio.h>
-#include <math.h>
 
 //  Function
 int isPrime(int input, int All_P[], int num);
@@ -24,6 +23,7 @@ int main()
     int prime_test = 3;
     int cnt = 1;
     
+    printf("Enter a number to judge if it is a Prime:");
     scanf("%d",&input_num);
     while (prime_test < input_num)
     {
@@ -45,9 +45,9 @@ int main()
     }
     
     if (isPrime(input_num, Primes,cnt-1) == 1) {
-        printf("No");
+        printf("Not a Prime\n");
     }else{
-        printf("Yes");
+        printf("Yes, it is a Prime\n");
     }
 
 //    FOR TEST
