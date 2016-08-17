@@ -8,32 +8,48 @@
 //  Use a pointer.
 //
 
+//Header
 #include <stdio.h>
 
+//  struct:
 struct point {
     int x;
     int y;
 };
 
+//  Initial Functions
+struct point* get_struct(struct point *in);         //  get_struct reads the input.
+void output(struct point out);                      //  output() does not using pointer
+void print(struct point *output);                   //  print() uses pointer
 
-void get_struct(struct point *in)
+//  Where the program begins
+int main()
+{
+    struct point test;
+    output(*get_struct(&test));
+    print(get_struct(&test));
+    
+    return 0;
+}
+
+//  all functions
+struct point* get_struct(struct point *in)
 {
     //  Method 1
     scanf("%d",&(*in).x);
     scanf("%d",&(*in).y);
+    return in;
 }
 
-void output(struct point *out)
+void output(struct point out)
 {
     //  Method 2 -- which I prefer 
-    printf("x = %d\n",out->x);
-    printf("y = %d\n",out->y);
+    printf("x = %d\n",out.x);
+    printf("y = %d\n",out.y);
 }
-int main()
+
+void print(struct point *output)
 {
-    struct point test;
-    get_struct(&test);
-    output(&test);
-    
-    return 0;
+    printf("x = %i\n",output->x);
+    printf("y = %i\n",output->y);
 }
