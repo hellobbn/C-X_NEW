@@ -17,8 +17,7 @@ struct date{
 };
 
 //  Functions
-bool isLeap(struct date d);
-int Num_OF_days(struct date e);
+int Num_OF_days(struct date tod);
 
 //  main
 int main()
@@ -43,30 +42,21 @@ int main()
     }
     
     printf("The date of tomorrow is: %i-%i-%i\n",tomorrow.year,tomorrow.month,tomorrow.day);
+    
     return 0;
 }
 
 //  This Func. calculates the days of the input month
-int Num_OF_days(struct date e)
+int Num_OF_days(struct date tod)
 {
     int days;
-    const int date_per_month[12]= {
-        31,28,31,30,31,30,31,31,30,31,30,31
-    };
-    if (e.month == 2 && isLeap(e) == true) {
+    const int date_per_month[]= {31,28,31,30,31,30,31,31,30,31,30,31,};
+    if (tod.month == 2 && tod.year % 4 == 0)
+    {
         days = 29;
     }else{
-        days = date_per_month[e.month - 1];
+        days = date_per_month[tod.month - 1];
     }
+    
     return days;
-}
-
-//  This Func. judges if the Feb. This year has 29 days
-bool isLeap(struct date d)
-{
-    bool judge = false;
-    if (d.year % 4 == 0) {
-        judge = true;
-    }
-    return judge;
 }
