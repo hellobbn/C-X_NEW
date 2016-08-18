@@ -20,7 +20,7 @@ struct point {
 //  Initial Functions
 struct point* get_struct(struct point *in);         //  get_struct reads the input.
 void output(struct point out);                      //  output() does not using pointer
-void print(struct point *output);                   //  print() uses pointer
+void print(const struct point *output);                   //  print() uses pointer
 
 //  Where the program begins
 int main()
@@ -48,7 +48,7 @@ void output(struct point out)
     printf("y = %d\n",out.y);
 }
 
-void print(struct point *output)
+void print(const struct point *output)
 {
     printf("x = %i\n",output->x);
     printf("y = %i\n",output->y);
