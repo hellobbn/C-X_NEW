@@ -34,11 +34,11 @@ int main() {
 		printf("The time after is %i-%i-%i\n",
 			   test_time[i].hour,test_time[i].minute,test_time[i].second);
     }
+	
 	return 0;
 }
 
 struct time* Time_Update(struct time *input_time){
-	
 	if (input_time->second == 59) {
 		input_time->second = 00;
 		if (input_time->minute == 59) {;
