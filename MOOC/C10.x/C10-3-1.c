@@ -28,10 +28,10 @@ int main() {
     };
 	
     for (int i = 0; i < 5; i++) {
-        printf("Time is %i-%i-%i\n",
+        printf("Time is %.2i:%.2i:%.2i\n",
                test_time[i].hour,test_time[i].minute,test_time[i].second);
         test_time[i] = *Time_Update(&test_time[i]);
-		printf("The time after is %i-%i-%i\n",
+		printf("The time after is %.2i:%.2i:%.2i\n",
 			   test_time[i].hour,test_time[i].minute,test_time[i].second);
     }
 	
