@@ -23,11 +23,11 @@ struct time* Time_Update(struct time *input_time);
 //  main
 int main() {
     struct time test_time[] = {
+
         {11,59,59} , {12,0,0} , {1,29,59}, {23,59,59}, {19,17,27}
     };
-    int i;
-    
-    for (i = 0; i < 5; i++) {
+	
+    for (int i = 0; i < 5; i++) {
         printf("Time is %i-%i-%i\n",
                test_time[i].hour,test_time[i].minute,test_time[i].second);
         test_time[i] = *Time_Update(&test_time[i]);
