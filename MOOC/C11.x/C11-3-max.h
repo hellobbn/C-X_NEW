@@ -11,7 +11,13 @@
 
 #include <stdio.h>
 
-#endif /* C11_3_max_h */
-
 extern int gAll;
 double max(double x, double y);
+
+struct test {
+	int x;
+	int y;
+};
+
+#endif
+
