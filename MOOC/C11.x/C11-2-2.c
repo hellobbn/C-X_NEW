@@ -11,10 +11,16 @@
 #include <stdio.h>
 
 #define cube(x) ((x)*(x)*(x))
+//Wrongly defined Macros Example
+//#define TEST(y) (y * 57.29578)
+//#define TEST2(z) (z) * 57.29578
+//Compile'll not return error. But that's not the intention
 
 int main() {
+	int i;
 	
-	printf("%d\n",cube(5));
+	scanf("%d",&i);
+	printf("%d\n",cube(i+2));
 	
 	return 0;
 }
