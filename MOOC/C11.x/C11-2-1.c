@@ -6,9 +6,16 @@
 //  Copyright © 2016年 BBN. All rights reserved.
 //
 //	Pre-command
-//
+//	Macros
 
 #include <stdio.h>
 
-#define PI 3.14159
+//	#define PI 3.14159
 
+int main()
+{
+	printf("%s:%d\n",__FILE__,__LINE__);
+	printf("%s,%s\n",__DATE__,__TIME__);
+	
+	return 0;
+}
