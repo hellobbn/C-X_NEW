@@ -16,9 +16,3 @@
 int cal_main(void);
 int len_main(void);
 int avg_main(void);
-
-#warning should be compiled with \
-    C4.x/C4-1-1.c \
-    C4.x/C4-2-2.c \
-    C4.x/C-2-2-f.c \
-    C4.x/C4-2-3.c\

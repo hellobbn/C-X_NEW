@@ -6,7 +6,7 @@
 //  Copyright © 2016年 BBN. All rights reserved.
 //
 //  BBN-ToolKit
-//  Version: 0.0.5
+//  Version: 0.0.4
 //  Update Time: 2016/8/11
 //  Status: Staging
 
