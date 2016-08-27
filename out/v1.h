@@ -15,4 +15,3 @@
 
 int cal_main(void);
 int len_main(void);
-int avg_main(void);
