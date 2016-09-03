@@ -10,46 +10,6 @@
 
 //  Initial Functions
 #include "C4-2-2.h"
-//  Judge Function
-int JUDGE(int number_length)
-{
-    if (number_length >= 3 && number_length <=9)
-    {
-        P_MAIN(number_length);
-        return 0;
-    }else{
-        printf("\aInvalid input!\n");
-        printf("Would you like to reset it?(Y/N):");
-        char read;
-        scanf("%s",&read);
-        if (toupper(read) == 'Y')
-        {
-            return 1;
-        }else{
-            return 2;
-        }
-    }
-}
-
-int JUDGE_LIMIT(int limit)
-{
-    if (limit < 5) {
-        printf("\n\a**WARNING**:\n   You have entered a limit <= 4 -- this is not possible!\n");
-        printf("Countinue?(Y/N)");
-        char read;
-        scanf("%s",&read);
-        if (toupper(read) == 'Y') {
-            return 5;
-        }else if(toupper(read) == 'N'){
-            return 4;
-        }else{
-            printf("Invalid Input!\n");
-            return 6;
-        }
-    }else{
-        return 7;
-    }
-}
 
 //  Mixed Function
 void P_MAIN(int length)
@@ -75,11 +35,24 @@ void P_MAIN(int length)
     //  Set Limit
     printf("\n\n******************************************\n**************IMPORTANT NOTE**************\n******************************************\n\nNow You can set a Final Try Times: Whatever you like\n");
     printf("You will be told the answer if you answered too many times\n");
-    do {
+	while(1){
         printf("Please enter the limit number:");
         scanf("%d", &set_final_number);
-    } while (JUDGE_LIMIT(set_final_number) != 5);
-
+		if (set_final_number <= 5) {
+			printf("\aWarning: You've Entered a number <= 5, That's Impossile!\n");
+			printf("Enter again?(y/N):");
+			char rd;
+			scanf("%s",&rd);
+			if (toupper(rd) == 'Y') {
+				continue;
+			} else {
+				break;
+			}
+		} else {
+			break;
+		}
+    }
+	printf("now The limit is %d\n\n",set_final_number);
     //  Guessing
     printf("Now The guessing number is ready\n");
     printf("What do you think it is?\n");

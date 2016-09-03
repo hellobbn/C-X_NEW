@@ -10,8 +10,8 @@
 //  There is a NEW Function named "rand()"
 
 
-//  Version 2.4.0
-//  Update Time 2016/8/11
+//  Version 2.5.0
+//  Update Time 2016/9/3
 //  Status: nearly done
 
 
@@ -31,18 +31,27 @@ int main(void)
     int saver;      //This stores misc staff
     
     //  Judge input area
-    do
-    {
-        printf("How long do you want(1-9)(Defalut = 3):");
+	while (1) {
+		printf("How long do you want(1-9)(Defalut = 3):");
         scanf("%d", &input_length);
-        saver = JUDGE(input_length);
-    } while (saver == 1);
-    if (saver == 2)
-    {
-        return 1;
-    }
-    
+		if (input_length >= 3 && input_length <=9) {
+			break;
+		}else {
+			printf("\aInvalid input!\n");
+			printf("Would you like to reset it?(Y/N):");
+			char read;
+			scanf("%s",&read);
+			if (toupper(read) == 'Y')
+			{
+				continue;
+			}else{
+				return 1;
+			}
+		}
+	}
+	
+	P_MAIN(input_length);
     //  End the program
-    
+	
     return 0;
 }

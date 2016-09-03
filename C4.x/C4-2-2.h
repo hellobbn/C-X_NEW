@@ -8,10 +8,6 @@
 
 #ifndef C4_2_2_h
 #define C4_2_2_h
-
-
-#endif /* C4_2_2_h */
-
 //  include...
 #include <stdio.h>
 #include <stdlib.h>
@@ -21,3 +17,7 @@
 int JUDGE(int number_length);
 int JUDGE_LIMIT(int limit);
 void P_MAIN(int length);
+
+#endif /* C4_2_2_h */
+
+
