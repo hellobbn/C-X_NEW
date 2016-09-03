@@ -65,8 +65,6 @@
 		156C6B861D1F503600D00711 /* C5-3-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-3-3.c"; sourceTree = "<group>"; };
 		156C6B871D1F503600D00711 /* C5-Test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-Test.c"; sourceTree = "<group>"; };
 		156C6B881D1F505A00D00711 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		159454DC1D5C678C00C589FD /* v1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = v1.c; sourceTree = "<group>"; };
-		159454DD1D5C678C00C589FD /* v1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v1.h; sourceTree = "<group>"; };
 		15993B201D5B76C9003207DE /* C9-1-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C9-1-2.c"; sourceTree = "<group>"; };
 		15B0D0831D61E90B00C0CA26 /* C10-1-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-1.c"; sourceTree = "<group>"; };
 		15B0D0851D61EB6B00C0CA26 /* C10-1-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-2.c"; sourceTree = "<group>"; };
@@ -168,7 +166,6 @@
 		156C6B311D1F4DF600D00711 = {
 			isa = PBXGroup;
 			children = (
-				159454DB1D5C675500C589FD /* out */,
 				156C6B881D1F505A00D00711 /* README.md */,
 				156C6B3B1D1F4DF600D00711 /* Products */,
 				156C6B3C1D1F4DF600D00711 /* C3.x */,
@@ -234,15 +231,6 @@
 			children = (
 			);
 			path = C6.x;
-			sourceTree = "<group>";
-		};
-		159454DB1D5C675500C589FD /* out */ = {
-			isa = PBXGroup;
-			children = (
-				159454DC1D5C678C00C589FD /* v1.c */,
-				159454DD1D5C678C00C589FD /* v1.h */,
-			);
-			path = out;
 			sourceTree = "<group>";
 		};
 		15B0D0821D61E89600C0CA26 /* C10.x */ = {
