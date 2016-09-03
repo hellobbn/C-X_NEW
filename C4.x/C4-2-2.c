@@ -19,7 +19,7 @@
 #include "C4-2-2.h"
 
 
-int cal_main(void)
+int main(void)
 {
     int input_length = 3;
 
