@@ -20,6 +20,7 @@ void P_MAIN(int length)
     int input_number = 0;
     int i = 0;
     int thinking_number;
+    bool correct = true;
 
     while (i < length)
     {
@@ -35,7 +36,7 @@ void P_MAIN(int length)
     //  Set Limit
     printf("\n\n******************************************\n**************IMPORTANT NOTE**************\n******************************************\n\nNow You can set a Final Try Times: Whatever you like\n");
     printf("You will be told the answer if you answered too many times\n");
-	while(1){
+	while(correct){
         printf("Please enter the limit number:");
         scanf("%d", &set_final_number);
 		if (set_final_number <= 5) {

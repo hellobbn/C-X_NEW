@@ -22,6 +22,7 @@
 int main(void)
 {
     int input_length = 3;
+    bool correct = true;
 
     //  Welcome Area
     
@@ -31,7 +32,7 @@ int main(void)
     int saver;      //This stores misc staff
     
     //  Judge input area
-	while (1) {
+	while (correct) {
 		printf("How long do you want(1-9)(Defalut = 3):");
         scanf("%d", &input_length);
 		if (input_length >= 3 && input_length <=9) {

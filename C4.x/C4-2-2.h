@@ -13,6 +13,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <ctype.h>
+#include <stdbool.h>
+
 //  INITIAL
 int JUDGE(int number_length);
 int JUDGE_LIMIT(int limit);
