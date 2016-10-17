@@ -29,7 +29,6 @@ int main(void)
     printf("***************Guessing Game***************");
     printf("\n*****************By BBN********************\n\n");
 
-    int saver;      //This stores misc staff
     
     //  Judge input area
 	while (correct) {
