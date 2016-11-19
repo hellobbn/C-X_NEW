@@ -16,8 +16,6 @@
 #include <stdbool.h>
 
 //  INITIAL
-int JUDGE(int number_length);
-int JUDGE_LIMIT(int limit);
 void P_MAIN(int length);
 
 #endif /* C4_2_2_h */
