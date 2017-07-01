@@ -26,7 +26,7 @@ int P_MAIN(int length)
     }
 
     //  Debug
-    printf("set_number_length = %d\n", set_number_length);
+    //  printf("set_number_length = %d\n", set_number_length);
     //  Giving a random Number
 
     srand(time(0));
