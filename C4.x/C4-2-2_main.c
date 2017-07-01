@@ -64,7 +64,7 @@ int main(void)
         printf("Unfortunately, it is wrong....\n");
         is_true = 1;
     }
-    //  End the program
 
+    //  End the program
     return is_true;
 }
