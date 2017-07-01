@@ -10,9 +10,9 @@
 //  There is a NEW Function named "rand()"
 
 
-//  Version 2.5.0
-//  Update Time 2016/9/3
-//  Status: nearly done
+//  Version 3.0.0
+//  Update Time 2017/7/1
+//  Status: release
 
 
 // include ..
