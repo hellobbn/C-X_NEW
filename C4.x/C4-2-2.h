@@ -16,8 +16,6 @@
 #include <stdbool.h>
 
 //  INITIAL
-void P_MAIN(int length);
+int P_MAIN(int length);
 
 #endif /* C4_2_2_h */
-
-

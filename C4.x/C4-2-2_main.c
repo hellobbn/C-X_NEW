@@ -15,7 +15,7 @@
 //  Status: nearly done
 
 
-// include .. 
+// include ..
 #include "C4-2-2.h"
 
 
@@ -23,20 +23,22 @@ int main(void)
 {
     int input_length = 3;
     bool correct = true;
+    int is_true = 0;
+    int is_right = -1;
 
     //  Welcome Area
-    
-    printf("***************Guessing Game***************");
-    printf("\n*****************By BBN********************\n\n");
 
-    
+    printf("***************Guessing Game***************\n");
+    printf("*****************By BBN********************\n\n");
+
+
     //  Judge input area
-	while (correct) {
-		printf("How long do you want(1-9)(Defalut = 3):");
+	while (is_true == 0) {
+		printf("How long do you want(3-9)(Defalut = 3):");
         scanf("%d", &input_length);
 		if (input_length >= 3 && input_length <=9) {
 			break;
-		}else {
+		} else {
 			printf("\aInvalid input!\n");
 			printf("Would you like to reset it?(Y/N):");
 			char read;
@@ -45,13 +47,24 @@ int main(void)
 			{
 				continue;
 			}else{
-				return 1;
+				is_true = 1;
 			}
 		}
 	}
-	
-	P_MAIN(input_length);
+	if (is_true == 0) {
+	    is_right = P_MAIN(input_length);
+	}  else {
+        printf("Quiting...\n");
+    }
+
+    if (is_right != 0) {
+        printf("Congratulations! You have tried %d times\n", is_right);
+        is_true = 0;
+    } else if (is_right == 0) {
+        printf("Unfortunately, it is wrong....\n");
+        is_true = 1;
+    }
     //  End the program
-	
-    return 0;
+
+    return is_true;
 }
