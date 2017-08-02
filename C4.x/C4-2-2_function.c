@@ -12,8 +12,7 @@
 #include "C4-2-2.h"
 
 //  Mixed Function
-int P_MAIN(int length)
-{
+int P_MAIN(int length) {
     int set_number_length = 1;
     int set_final_number = 5;
     int count = 0;
@@ -34,7 +33,10 @@ int P_MAIN(int length)
 
 
     //  Set Limit
-    printf("\n\n******************************************\n**************IMPORTANT NOTE**************\n******************************************\n\nNow You can set a Final Try Times: Whatever you like\n");
+    printf("\n\n******************************************"
+           "\n**************IMPORTANT NOTE**************"
+           "\n******************************************\n"
+           "\nNow You can set a Final Try Times: Whatever you like\n");
     printf("You will be told the answer if you answered too many times\n");
 	while( correct ){
         printf("Please enter the limit number:");
