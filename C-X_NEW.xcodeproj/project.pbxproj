@@ -79,6 +79,7 @@
 		15CB66C71D5B6F69008D4CC3 /* C9-1-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-1-1.c"; sourceTree = "<group>"; };
 		15CD39321D64999F0094C0C3 /* C10-2-5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-2-5.c"; sourceTree = "<group>"; };
 		15CD39361D64A00B0094C0C3 /* C10-2-6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-2-6.c"; sourceTree = "<group>"; };
+		15CFFBA41F3156F90059DD8C /* C4-work.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C4-work.c"; sourceTree = "<group>"; };
 		15DE9B721D5C008400D70932 /* C9-2-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-2-1.c"; sourceTree = "<group>"; };
 		15EB10A71D1F963700772D05 /* Calculator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Calculator.c; sourceTree = "<group>"; };
 		15EB10AA1D1F9B1D00772D05 /* 2048.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 2048.c; sourceTree = "<group>"; };
@@ -215,6 +216,7 @@
 				15EDF48A1F1E0CC6002A6A51 /* C4-2-2.h */,
 				156C6B741D1F4FEB00D00711 /* C4-2-3.c */,
 				156C6B751D1F4FEB00D00711 /* C4-2-4.c */,
+				15CFFBA41F3156F90059DD8C /* C4-work.c */,
 			);
 			path = C4.x;
 			sourceTree = "<group>";
