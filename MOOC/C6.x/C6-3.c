@@ -5,7 +5,7 @@
 //  Created by BBN on 2017/8/4.
 //  Copyright © 2017年 BBN. All rights reserved.
 //
-//  Version 1.2
+//  Version 1.3
 //  Update on 2017-8-4
 
 #include "stdio.h"
@@ -17,7 +17,11 @@ int main(int argc, char const *argv[])
     int number = 100;
     printf("Please enter how many primes you want to know?(100)");
     scanf("%d",&number);
-    int primeList[number] = {2};
+    int primeList[number];
+    primeList[0] = 2;
+    for (int x = 1; x < number; x++) {
+        primeList[x] = 0;
+    }
     int cnt = 1;
     int i = 3;
     while( cnt < number )
@@ -45,7 +49,7 @@ int isPrime(int input, int inPrimeList[], int number)
     int is_true = 1;
     for (int i = 0; i < number; ++i)
     {
-        if (input / inPrimeList[i] != 0)
+        if (input % inPrimeList[i] == 0)
         {
             is_true = 0;
             break;
