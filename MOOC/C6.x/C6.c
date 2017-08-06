@@ -5,71 +5,74 @@
 //  Created by BBN on 16/7/20.
 //  Copyright © 2016年 BBN. All rights reserved.
 //
+//Version 1.2
 
-#include <stdio.h>
+#include "stdio.h"
 
-int main()
+void print(int a, int b);
+int main(int argc, char const *argv[])
 {
-    int saver[100];
-    for(int i = 0;i <=100;i++){
-        saver[i] = 0;
-    }
-    int cnt = 0;
-    int a,b = 0;                                                                                                                                                                                                            while(cnt < 2)                                                                                                                                                                                                          {                                                                                                                                                                                                                               scanf("%d%d",&a,&b);                                                                                                                                                                                                    saver[a] += b;                                                                                                                                                                                                          if(a ==0)
-        cnt++;
-    }
-    cnt = 1;
-    for(int i = 100; i >= 0; i --)
+    int saver[101] = {0};
+    int a = 0;                 //    save 幂次
+    int b = 0;                //    save 幂数
+    int cnt = 0;            //     记录 0 个数
+    while( cnt != 2)
     {
-        if(saver[i]==0&& i!= 0)                                                                                                                                                                                                                 continue;
-        if(saver[i] != 1){
-            if (i == 0) {
-                if(cnt != 1 && saver[i] >= 0 ){
-                    printf("+%d",saver[i]);}
-                else if(cnt == 1&& saver[i] >= 0){
-                    printf("%d",saver[i]);
-                }
-                else if(saver[i] < 0){
-                    printf("%d",saver[i]);
-                }
-            }else if(i == 1){
-                if(saver[i] > 0 && cnt != 1){
-                    printf("+%dx",saver[i]);
-                }
-                if(saver[i] < 0 && cnt != 1){
-                    printf("%dx",saver[i]);
-                }
-                if(cnt == 1){
-                    printf("%dx",saver[i]);
-                }
-            }else if(i > 0 && cnt == 1){
-                printf("%dx%d",saver[i],i);
-            }else if(i > 0 && cnt != 1 && saver[i] < 0){
-                printf("%dx%d",saver[i],i);
-            }else if(i > 0 && cnt != 1 && saver[i] > 0){
-                printf("+%dx%d",saver[i],i);
-            }
-        }else{                                                  //saver[i] == 1
-            if( i == 0 && cnt != 1){
-                printf("+%d",saver[i]);
-            }else if(i == 0 && cnt == 1){
-                printf("%d",saver[i]);
-            }else if(i == 1){
-                if(cnt != 1){
-                    printf("+x");
-                }
-                if(cnt == 1){
-                    printf("x");
-                }
-            }else if(i > 0 && cnt == 1){
-                printf("x%d",i);
-            }else if(i > 0 && cnt != 1){
-                    printf("+x%d",i);
-            }
+        scanf("%d %d", &a, &b);
+        saver[a] += b;
+        if (a == 0)
+        {
+            cnt++;
         }
-        cnt++;
-        
+    }
+    cnt = 0;
+    for (int i = 100; i >= 0; --i)
+    {
+        if(saver[i] != 0)
+        {
+            if(i != 0){
+                if (cnt == 0)
+                {
+                    print(saver[i], i);
+                    cnt ++;
+                } else if (saver[i] > 0){
+                    printf("+");
+                    print(saver[i], i);
+                } else {
+                    print(saver[i], i);
+                }
+            } else if(cnt == 0){
+                printf("%d", saver[i]);
+            } else {
+                printf("+%d", saver[i]);
+            }
+            
+        }
+        if (cnt == 0 && i == 0 && saver [i] == 0) {
+            printf("0");
+        }
     }
     return 0;
-    
+}
+
+void print(int a, int b) {              //a = saver[i] b = i
+    if (a == 1) {
+        if (b == 1) {
+            printf("x");
+        } else {
+            printf("x%d", b);
+        }
+    } else if(a == -1) {
+        if (b == 1) {
+            printf("-x");
+        } else {
+            printf("-x%d", b);
+        }
+    } else {
+        if (b == 1) {
+            printf("%dx", a);
+        } else {
+            printf("%dx%d", a, b);
+        }
+    }
 }
