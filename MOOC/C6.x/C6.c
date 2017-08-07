@@ -23,19 +23,19 @@ int main(int argc, char const *argv[]) {
         }
     }
     cnt = 0;
-    for (int i = 100; i >= 0; --i){
-        if(saver[i] != 0){
-            if(i != 0){
-                if (cnt == 0){
+    for (int i = 100; i >= 0; --i) {
+        if(saver[i] != 0) {
+            if(i != 0) {
+                if (cnt == 0) {
                     print(saver[i], i);
                     cnt ++;
-                } else if (saver[i] > 0){
+                } else if (saver[i] > 0) {
                     printf("+");
                     print(saver[i], i);
                 } else {
                     print(saver[i], i);
                 }
-            } else if(cnt == 0){
+            } else if(cnt == 0) {
                 printf("%d", saver[i]);
             } else {
                 printf("+%d", saver[i]);
