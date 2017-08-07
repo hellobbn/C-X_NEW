@@ -10,29 +10,23 @@
 #include "stdio.h"
 
 void print(int a, int b);
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]) {
     int saver[101] = {0};
     int a = 0;                 //    save 幂次
     int b = 0;                //    save 幂数
     int cnt = 0;            //     记录 0 个数
-    while( cnt != 2)
-    {
+    while( cnt != 2) {
         scanf("%d %d", &a, &b);
         saver[a] += b;
-        if (a == 0)
-        {
+        if (a == 0){
             cnt++;
         }
     }
     cnt = 0;
-    for (int i = 100; i >= 0; --i)
-    {
-        if(saver[i] != 0)
-        {
+    for (int i = 100; i >= 0; --i){
+        if(saver[i] != 0){
             if(i != 0){
-                if (cnt == 0)
-                {
+                if (cnt == 0){
                     print(saver[i], i);
                     cnt ++;
                 } else if (saver[i] > 0){
