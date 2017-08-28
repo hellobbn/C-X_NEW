@@ -8,6 +8,7 @@
 
 #include "stdio.h"
 #include "string.h"
+#include "strings.h"
 
 int main(int argc, char const *argv[])
 {
@@ -32,7 +33,7 @@ int main(int argc, char const *argv[])
         int isSame = 0;
         for (int x = 0; x < i && isSame == 0; ++x)        //    This function will find if the word matches the former
         {
-            if (strcmp(wordsBuf, words[x]) == 0)
+            if (strcasecmp(wordsBuf, words[x]) == 0)
             {
                 counter[x] ++;
                 isSame = 1;
