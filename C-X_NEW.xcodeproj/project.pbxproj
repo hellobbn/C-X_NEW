@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15773CD91F3706A100F776B6 /* C6.c in Sources */ = {isa = PBXBuildFile; fileRef = 1569624A1D3F17C900C928CD /* C6.c */; };
+		1587EC6A1F546DFD00CD5AC6 /* C11-4.c in Sources */ = {isa = PBXBuildFile; fileRef = 1587EC691F546DFD00CD5AC6 /* C11-4.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +67,7 @@
 		156C6B871D1F503600D00711 /* C5-Test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C5-Test.c"; sourceTree = "<group>"; };
 		156C6B881D1F505A00D00711 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1587495A1DCE333900BA8E08 /* C3-3-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C3-3-1.c"; sourceTree = "<group>"; };
+		1587EC691F546DFD00CD5AC6 /* C11-4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C11-4.c"; sourceTree = "<group>"; };
 		158DC9941DE081C300312027 /* C6-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-1.c"; sourceTree = "<group>"; };
 		15993B201D5B76C9003207DE /* C9-1-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C9-1-2.c"; sourceTree = "<group>"; };
 		15B0D0831D61E90B00C0CA26 /* C10-1-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-1.c"; sourceTree = "<group>"; };
@@ -167,6 +168,7 @@
 				152EA7C71D668AC500C744E3 /* C11-2-1.c */,
 				152EA7C91D668F3100C744E3 /* C11-2-2.c */,
 				152EA7CB1D6691F900C744E3 /* C11-2-3.c */,
+				1587EC691F546DFD00CD5AC6 /* C11-4.c */,
 				152EA7D11D66990A00C744E3 /* C11-3-main.c */,
 				152EA7D31D66992400C744E3 /* C11-3-max.c */,
 				152EA7D41D66992400C744E3 /* C11-3-max.h */,
@@ -379,7 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15773CD91F3706A100F776B6 /* C6.c in Sources */,
+				1587EC6A1F546DFD00CD5AC6 /* C11-4.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
