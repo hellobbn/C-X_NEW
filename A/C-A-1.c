@@ -5,7 +5,7 @@
 //  Created by BBN on 2017/9/9.
 //  Copyright © 2017年 BBN. All rights reserved.
 //
-//  Version 1.0
+//  Version 1.1
 //  Updated on 2017-9-9
 
 #include <stdio.h>
@@ -16,7 +16,7 @@
 #include <string.h>
 int main() {
     const int BUF_LEN = 100;
-    const int STR_LEN = 1000;
+//    const int STR_LEN = 1000;
     char buff[BUF_LEN];
 //    char whole_str[STR_LEN];
     char *pS = NULL;                     //  this stores the output of fgets
@@ -43,12 +43,14 @@ int main() {
         buff[--temp_buf_len] = '\0';
         int whole_buff_len = (int)strlen(buff);
         //  delete the ' '
-        for (int i = 0, j = 0; i < whole_buff_len; i++) {
+        int i, j = 0;
+        for (i = 0, j = 0; i < whole_buff_len; i++) {
             //  here is very important!
             if (buff[i] != ' ') {
                 buff[j++] = buff[i];
             }
         }
+        buff[j] = '\0';
         whole_buff_len = (int)strlen(buff);      //renew the whole_str_len
         int index = 0;
         if (buff[index] == '=') {
@@ -60,6 +62,7 @@ int main() {
         
         while(index < whole_buff_len) {
             op = *(buff + index);
+            index++;
             str_tod_ii = strtod(buff + index, &endptr);
             index = (int)(endptr - buff);
             switch (op) {
@@ -97,7 +100,7 @@ int main() {
                     break;
             }
         }
-        printf("%f\n", str_tod);
+        printf("= %f\n", str_tod);
     }
 
     
