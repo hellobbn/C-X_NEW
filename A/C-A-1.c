@@ -81,7 +81,7 @@ int main() {
                     break;
                 case '^':
                     temp = str_tod;
-                    for (int i = 0; i < str_tod_ii - 18.; ++i) {
+                    for (int i = 0; i < str_tod_ii - 1; ++i) {
                         str_tod *= temp;;
                     }
                     break;
