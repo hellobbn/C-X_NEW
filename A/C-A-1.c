@@ -5,7 +5,7 @@
 //  Created by BBN on 2017/9/9.
 //  Copyright © 2017年 BBN. All rights reserved.
 //
-//  Version 1.1
+//  Version 1.2
 //  Updated on 2017-9-9
 
 #include <stdio.h>
@@ -24,13 +24,10 @@ int main() {
     double str_tod = 0.0;
     double str_tod_ii = 0.0;
     char op = 0;
-    
+    double temp = 0;
     
     while (true) {
         pS = fgets(buff, BUF_LEN, stdin);
-        if (buff[0] == '\n') {
-            break;
-        }
         if (!pS) {
             printf("Error reading the string, quitting....");
             return 1;
@@ -83,8 +80,9 @@ int main() {
                     str_tod *= str_tod_ii;
                     break;
                 case '^':
-                    for (int i = 0; i < str_tod_ii; ++i) {
-                        str_tod *= str_tod;
+                    temp = str_tod;
+                    for (int i = 0; i < str_tod_ii - 18.; ++i) {
+                        str_tod *= temp;;
                     }
                     break;
                 case '%':
@@ -100,7 +98,7 @@ int main() {
                     break;
             }
         }
-        printf("= %f\n", str_tod);
+        printf("= %.2f\n", str_tod);
     }
 
     
