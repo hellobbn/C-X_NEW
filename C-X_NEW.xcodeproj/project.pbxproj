@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		151ECD231F7A1C0100EBC3B1 /* C-A-4.c in Sources */ = {isa = PBXBuildFile; fileRef = 151ECD221F7A1C0100EBC3B1 /* C-A-4.c */; };
 		151ECD271F7B9FCD00EBC3B1 /* C-A-5.c in Sources */ = {isa = PBXBuildFile; fileRef = 151ECD261F7B9FCD00EBC3B1 /* C-A-5.c */; };
+		159A2D051F7F6C2400788CD7 /* C-A-6.c in Sources */ = {isa = PBXBuildFile; fileRef = 159A2D041F7F6C2400788CD7 /* C-A-6.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +77,7 @@
 		158D809B1F63E2F800F10A88 /* C-A-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "C-A-1.c"; path = "A/C-A-1.c"; sourceTree = SOURCE_ROOT; };
 		158DC9941DE081C300312027 /* C6-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-1.c"; sourceTree = "<group>"; };
 		15993B201D5B76C9003207DE /* C9-1-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C9-1-2.c"; sourceTree = "<group>"; };
+		159A2D041F7F6C2400788CD7 /* C-A-6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C-A-6.c"; sourceTree = "<group>"; };
 		15B0D0831D61E90B00C0CA26 /* C10-1-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-1.c"; sourceTree = "<group>"; };
 		15B0D0851D61EB6B00C0CA26 /* C10-1-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-2.c"; sourceTree = "<group>"; };
 		15B6A7DA1D5C1C270070FD75 /* C9-2-2-mylen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-2-2-mylen.c"; sourceTree = "<group>"; };
@@ -268,6 +269,7 @@
 				153C7DBA1F651E75006B0485 /* C-A-2.c */,
 				1573E9761F6EC42E00452E52 /* C-A-3.c */,
 				151ECD221F7A1C0100EBC3B1 /* C-A-4.c */,
+				159A2D041F7F6C2400788CD7 /* C-A-6.c */,
 				151ECD261F7B9FCD00EBC3B1 /* C-A-5.c */,
 				153E0DB91F736342009FB75F /* test.c */,
 			);
@@ -402,7 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				151ECD231F7A1C0100EBC3B1 /* C-A-4.c in Sources */,
+				159A2D051F7F6C2400788CD7 /* C-A-6.c in Sources */,
 				151ECD271F7B9FCD00EBC3B1 /* C-A-5.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
