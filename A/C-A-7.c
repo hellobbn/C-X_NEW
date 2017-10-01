@@ -6,7 +6,7 @@
 //  Copyright © 2017年 BBN. All rights reserved.
 //
 //  Name: Fold
-//  Version: 1.0
+//  Version: 1.1
 //  Updated date: 2017-10-1
 //
 
@@ -18,7 +18,13 @@ int main() {
     int current_char = 0;
     int is_char = 0;
     int is_blank  = 0;
+    int is_first = 0;
+//    int should_fold = 0;
     while ((c = getchar()) != EOF) {
+        if (is_first == 0) {
+            is_first = 1;
+            putchar('\n');
+        }
         if (c == ' ') {
             is_blank = 1;
         } else {
@@ -28,11 +34,16 @@ int main() {
         if (current_char < LEAST_CHARS_PER_LINE) {
             putchar(c);
         } else {
+            current_char = 0;
             if (is_char) {
                 putchar(c);
+                is_char = 0;
             }
             if (is_blank) {
-                putchar('\n');
+                if (current_char != 0) {
+                    putchar('\n');
+                    is_blank = 0;
+                }
             }
         }
     }
