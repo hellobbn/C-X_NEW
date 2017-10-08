@@ -5,37 +5,62 @@
 //  Created by clfbbn on 2017/10/8.
 //  Copyright © 2017年 BBN. All rights reserved.
 //
+//  Version: 2.0
+//  Updated on: 2017 - 10 - 8
 
 #include <stdio.h>
-
+/* ddd
+ ddd
+ */
 int main(){
     char c;
-    int inStr = 0, back_num = 0;
-    int is_inComment = 0;
+    int inStr = 0;
+    int backCnt = 0;
+    int inComment = 0;
+    int inLongComment = 0;
+    int temp_index = 0;
     while ((c = getchar()) != EOF) {
-        if (((c == '\"') | (c == '\''))) {
-            if (inStr) {
-                inStr = 0;
-            } else {
-                inStr = 1;
+        if(!inLongComment || !inComment){
+            if ((c == '\'') || (c == '"')) {
+                    inStr = !inStr;
             }
-        }                                           //  Judge if it is in string ends
-        if (c == '/') {
-            back_num ++;
         }
-        if ((back_num) && (!inStr)) {
-            // it is in a comment
-            is_inComment = 1;
+        if ((!inStr) && ((!inComment) && (!inLongComment))) {
+            if ((backCnt == 1) && (!inComment) && (!inLongComment)) {
+                if (c == '*') {
+                    inLongComment = 1;
+                } else if (c == '/') {
+                    inComment = 1;
+                }
+                c = ' ';
+            }
+            if (c == '/') {
+                backCnt++;
+                c = ' ';
+            }
         }
-        if (!is_inComment) {
+        if (inComment || inLongComment) {
+            putchar(' ');
+        } else {
             putchar(c);
         }
-        if(c == '\n') {
-            // Reset all
-            inStr = 0;
-            back_num = 0;
-            is_inComment = 0;
-            putchar('\n');
+        if (c == '\n') {
+            //  Reset something
+            inComment = 0;
+            backCnt = 0;
+        }
+        if (inLongComment) {
+            if (temp_index == 1) {
+                if (c != '/') {
+                    temp_index = 0;
+                } else {
+                    inLongComment = 0;
+                }
+            }
+            if (c == '*') {
+                temp_index = 1;
+            }
+
         }
     }
 }
