@@ -5,7 +5,7 @@
 //  Created by clfbbn on 2017/10/8.
 //  Copyright © 2017年 BBN. All rights reserved.
 //
-//  Version: 2.0
+//  Version: 2.1
 //  Updated on: 2017 - 10 - 8
 
 #include <stdio.h>
@@ -20,6 +20,11 @@ int main(){
     int inLongComment = 0;
     int temp_index = 0;
     while ((c = getchar()) != EOF) {
+        if (c == '\n') {
+            //  Reset something
+            inComment = 0;
+            backCnt = 0;
+        }
         if(!inLongComment || !inComment){
             if ((c == '\'') || (c == '"')) {
                     inStr = !inStr;
@@ -29,10 +34,12 @@ int main(){
             if ((backCnt == 1) && (!inComment) && (!inLongComment)) {
                 if (c == '*') {
                     inLongComment = 1;
+                    c = ' ';
                 } else if (c == '/') {
                     inComment = 1;
+                    c = ' ';
                 }
-                c = ' ';
+                
             }
             if (c == '/') {
                 backCnt++;
@@ -44,11 +51,7 @@ int main(){
         } else {
             putchar(c);
         }
-        if (c == '\n') {
-            //  Reset something
-            inComment = 0;
-            backCnt = 0;
-        }
+
         if (inLongComment) {
             if (temp_index == 1) {
                 if (c != '/') {
