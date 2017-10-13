@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD1603AF1F8FAFDA00DB9F44 /* C-A-10.c in Sources */ = {isa = PBXBuildFile; fileRef = FD1603AE1F8FAFDA00DB9F44 /* C-A-10.c */; };
+		FD1603B11F90973100DB9F44 /* C-A-11.c in Sources */ = {isa = PBXBuildFile; fileRef = FD1603B01F90973100DB9F44 /* C-A-11.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -113,6 +113,7 @@
 		FD139B221F80722F00A1F7C3 /* C-A-7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C-A-7.c"; sourceTree = "<group>"; };
 		FD1603AC1F8D8F4300DB9F44 /* C-A-9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C-A-9.c"; sourceTree = "<group>"; };
 		FD1603AE1F8FAFDA00DB9F44 /* C-A-10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C-A-10.c"; sourceTree = "<group>"; };
+		FD1603B01F90973100DB9F44 /* C-A-11.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C-A-11.c"; sourceTree = "<group>"; };
 		FD17A9611F8A54BA00F78341 /* C-A-8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C-A-8.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -278,6 +279,7 @@
 				FD17A9611F8A54BA00F78341 /* C-A-8.c */,
 				FD1603AC1F8D8F4300DB9F44 /* C-A-9.c */,
 				FD1603AE1F8FAFDA00DB9F44 /* C-A-10.c */,
+				FD1603B01F90973100DB9F44 /* C-A-11.c */,
 				153E0DB91F736342009FB75F /* test.c */,
 			);
 			path = A;
@@ -411,7 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD1603AF1F8FAFDA00DB9F44 /* C-A-10.c in Sources */,
+				FD1603B11F90973100DB9F44 /* C-A-11.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
