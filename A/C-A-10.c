@@ -5,14 +5,14 @@
 //  Created by clfbbn on 2017/10/12.
 //  Copyright © 2017年 BBN. All rights reserved.
 //
-//  Version: 1.2.1
+//  Version: 1.2.2
 //  Updated: 2017-10-13
 //
 //
 #include <stdio.h>
 #include <stdlib.h>
 
-#define DEBUG 1
+#define _DEBUG 0
 
 #define INIT_S1_CHAR 50
 #define INIT_S2_CHAR 100
@@ -33,7 +33,7 @@ int main() {
     s1[i] = '\0';
     if(!(isillegal = check_legal(s1, i))){
         expand(s1, s2, i, s2_size);                    //  Temp debug with number 10 and 100
-        if (DEBUG) {
+        if (_DEBUG) {
             printf("%s\n", s1);
         }
         printf("%s\n", s2);
