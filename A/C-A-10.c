@@ -5,7 +5,7 @@
 //  Created by clfbbn on 2017/10/12.
 //  Copyright © 2017年 BBN. All rights reserved.
 //
-//  Version: 1.2
+//  Version: 1.2.1
 //  Updated: 2017-10-13
 //
 //
@@ -96,5 +96,5 @@ void expand(char str1[], char str2[], int num_of_str1, int num_of_str2) {
         }
         ++i;
     }
-    str2[i] = '\0';
+    str2[++j] = '\0';
 }
