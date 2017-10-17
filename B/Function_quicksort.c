@@ -24,6 +24,7 @@ void custom_quicksort(int v[], int left, int right) {
             swap(v, ++last, i);
         }
     }
+    swap(v, last, i);
     custom_quicksort(v, left, last - 1);
     custom_quicksort(v, last, right);
 }
