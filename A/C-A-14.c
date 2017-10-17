@@ -28,13 +28,4 @@ int main(int argc, char *argv[]) {
     return found;
 }
 
-int custom_getline(char *str, int max) {
-    int i;
-    char c;
-    char *p = str;
-    while ((c = getchar()) != '\n') {
-        *(str++) = c;
-    }
-    *str = '\0';
-    return str - p;
-}
+
