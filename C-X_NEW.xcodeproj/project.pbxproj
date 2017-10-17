@@ -290,8 +290,8 @@
 				FD1603B01F90973100DB9F44 /* C-A-11.c */,
 				FD1603B41F90CFA500DB9F44 /* C-A-12.c */,
 				FD1603B61F90D63900DB9F44 /* C-A-13.c */,
-				153E0DB91F736342009FB75F /* test.c */,
 				FD472C091F9504BC0004314E /* C-A-14.c */,
+				153E0DB91F736342009FB75F /* test.c */,
 			);
 			path = A;
 			sourceTree = "<group>";
