@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FDC912891FA2EAE600F39365 /* C-A-18.c in Sources */ = {isa = PBXBuildFile; fileRef = FDC912881FA2EAE600F39365 /* C-A-18.c */; };
+		FDC9128E1FA308E800F39365 /* Function_minprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = FDC9128D1FA308E800F39365 /* Function_minprintf.c */; };
+		FDD36D311FA42561006C32B4 /* cat_example.c in Sources */ = {isa = PBXBuildFile; fileRef = FDC9128B1FA308B500F39365 /* cat_example.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -126,6 +127,8 @@
 		FD472C071F9500330004314E /* Function_strcpy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Function_strcpy.c; sourceTree = "<group>"; };
 		FD472C091F9504BC0004314E /* C-A-14.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C-A-14.c"; sourceTree = "<group>"; };
 		FDC912881FA2EAE600F39365 /* C-A-18.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C-A-18.c"; sourceTree = "<group>"; };
+		FDC9128B1FA308B500F39365 /* cat_example.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cat_example.c; sourceTree = "<group>"; };
+		FDC9128D1FA308E800F39365 /* Function_minprintf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Function_minprintf.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +209,7 @@
 				156C6B881D1F505A00D00711 /* README.md */,
 				158D809D1F63E31100F10A88 /* A */,
 				FD472C031F94FF350004314E /* B */,
+				FDC9128A1FA3087F00F39365 /* C */,
 				156C6B3B1D1F4DF600D00711 /* Products */,
 				156C6B3C1D1F4DF600D00711 /* C3.x */,
 				156C6B4A1D1F4ED400D00711 /* C4.x */,
@@ -380,8 +384,17 @@
 				FD472C011F94FC3C0004314E /* Function_quicksort.c */,
 				FD1603B21F90A35800DB9F44 /* Function_atof.c */,
 				FD472C071F9500330004314E /* Function_strcpy.c */,
+				FDC9128D1FA308E800F39365 /* Function_minprintf.c */,
 			);
 			path = B;
+			sourceTree = "<group>";
+		};
+		FDC9128A1FA3087F00F39365 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				FDC9128B1FA308B500F39365 /* cat_example.c */,
+			);
+			path = C;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,7 +456,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC912891FA2EAE600F39365 /* C-A-18.c in Sources */,
+				FDC9128E1FA308E800F39365 /* Function_minprintf.c in Sources */,
+				FDD36D311FA42561006C32B4 /* cat_example.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
