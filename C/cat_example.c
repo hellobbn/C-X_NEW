@@ -12,13 +12,14 @@
 void filecpy(FILE *, FILE *);
 int main(int argc, char *argv[]) {
     FILE *fp;
+    char* prog = argv[0];
     
     if (argc == 1) {
         filecpy(stdin, stdout);
     } else {
         while (--argc > 0) {
             if ((fp = fopen(*++argv, "r")) == NULL) {
-                printf("cat: cannot open %s\n", *argv);
+                fprintf(stderr, "%s: can't open %s\n", prog, *argv);
                 return 1;
             } else {
                 filecpy(fp, stdout);
