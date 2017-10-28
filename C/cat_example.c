@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
 void filecpy(FILE * ifp, FILE *ofp) {
     int c;
     
-    while ((c = getc(ifp)) != EOF) {
-        putc(c, ofp);
+    while ((c = getc(ifp)) != EOF) {            //  while((c = getc(stdin)) != EOF)
+        putc(c, ofp);                           //      putc(c, stdout);
     }
 }
