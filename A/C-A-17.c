@@ -74,6 +74,7 @@ void treeprint(struct tree *in) {
         printf("%4d %s\n", in->count, in->words);
         treeprint(in->right);
     }
+    return;
 }
 int main( ) {
     struct tree *root;

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FDC9128E1FA308E800F39365 /* Function_minprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = FDC9128D1FA308E800F39365 /* Function_minprintf.c */; };
-		FDD36D311FA42561006C32B4 /* cat_example.c in Sources */ = {isa = PBXBuildFile; fileRef = FDC9128B1FA308B500F39365 /* cat_example.c */; };
+		FDEEABF51FA6ACA000C5528A /* C-A-19.c in Sources */ = {isa = PBXBuildFile; fileRef = FDEEABF41FA6ACA000C5528A /* C-A-19.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -129,6 +129,7 @@
 		FDC912881FA2EAE600F39365 /* C-A-18.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C-A-18.c"; sourceTree = "<group>"; };
 		FDC9128B1FA308B500F39365 /* cat_example.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cat_example.c; sourceTree = "<group>"; };
 		FDC9128D1FA308E800F39365 /* Function_minprintf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Function_minprintf.c; sourceTree = "<group>"; };
+		FDEEABF41FA6ACA000C5528A /* C-A-19.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C-A-19.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +304,7 @@
 				FD200FEB1F95C99A00077469 /* C-A-16.c */,
 				FD1EC9771F96563700F6A92B /* C-A-17.c */,
 				FDC912881FA2EAE600F39365 /* C-A-18.c */,
+				FDEEABF41FA6ACA000C5528A /* C-A-19.c */,
 				153E0DB91F736342009FB75F /* test.c */,
 			);
 			path = A;
@@ -457,7 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDC9128E1FA308E800F39365 /* Function_minprintf.c in Sources */,
-				FDD36D311FA42561006C32B4 /* cat_example.c in Sources */,
+				FDEEABF51FA6ACA000C5528A /* C-A-19.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
