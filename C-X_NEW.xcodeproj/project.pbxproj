@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153186DE1FE5259F0052DFE5 /* C-A-8.c in Sources */ = {isa = PBXBuildFile; fileRef = FD17A9611F8A54BA00F78341 /* C-A-8.c */; };
 		FDC9128E1FA308E800F39365 /* Function_minprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = FDC9128D1FA308E800F39365 /* Function_minprintf.c */; };
-		FDEEABF51FA6ACA000C5528A /* C-A-19.c in Sources */ = {isa = PBXBuildFile; fileRef = FDEEABF41FA6ACA000C5528A /* C-A-19.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -425,7 +425,7 @@
 		156C6B321D1F4DF600D00711 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = BBN;
 				TargetAttributes = {
 					156C6B391D1F4DF600D00711 = {
@@ -458,8 +458,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				153186DE1FE5259F0052DFE5 /* C-A-8.c in Sources */,
 				FDC9128E1FA308E800F39365 /* Function_minprintf.c in Sources */,
-				FDEEABF51FA6ACA000C5528A /* C-A-19.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,7 +576,7 @@
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = 7.2;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_GLOBAL_CONSTRUCTORS = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
@@ -617,7 +617,7 @@
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = 7.2;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_GLOBAL_CONSTRUCTORS = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;

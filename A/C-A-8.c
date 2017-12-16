@@ -19,7 +19,7 @@ int main(){
     int inComment = 0;
     int inLongComment = 0;
     int temp_index = 0;
-    while ((c = getchar()) != EOF) {
+    while ((c = getc(stdin)) != EOF) {
         if (c == '\n') {
             //  Reset something
             inComment = 0;
@@ -47,9 +47,9 @@ int main(){
             }
         }
         if (inComment || inLongComment) {
-            putchar(' ');
+            putc(' ', stdout);
         } else {
-            putchar(c);
+            putc(c, stdout);
         }
 
         if (inLongComment) {
