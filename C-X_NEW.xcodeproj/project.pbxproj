@@ -13,6 +13,7 @@
 		1540E9EA20FEDF1E00F2A047 /* 2804_new.c in Sources */ = {isa = PBXBuildFile; fileRef = 1540E9E520FEDF1E00F2A047 /* 2804_new.c */; };
 		1540E9EB20FEDF1E00F2A047 /* 2738.c in Sources */ = {isa = PBXBuildFile; fileRef = 1540E9E620FEDF1E00F2A047 /* 2738.c */; };
 		1540E9EC20FEDF1E00F2A047 /* 2797_new.c in Sources */ = {isa = PBXBuildFile; fileRef = 1540E9E720FEDF1E00F2A047 /* 2797_new.c */; };
+		15DA2F2420FF818300EB484D /* 1166.c in Sources */ = {isa = PBXBuildFile; fileRef = 15DA2F2320FF818300EB484D /* 1166.c */; };
 		FDC9128E1FA308E800F39365 /* Function_minprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = FDC9128D1FA308E800F39365 /* Function_minprintf.c */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +115,7 @@
 		15DA061D205579AC00ECFB76 /* varargs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = varargs.c; sourceTree = "<group>"; };
 		15DA061E205579AC00ECFB76 /* variadic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = variadic.c; sourceTree = "<group>"; };
 		15DA061F205579AD00ECFB76 /* assert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = assert.c; sourceTree = "<group>"; };
+		15DA2F2320FF818300EB484D /* 1166.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1166.c; sourceTree = "<group>"; };
 		15DE9B721D5C008400D70932 /* C9-2-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C9-2-1.c"; sourceTree = "<group>"; };
 		15EB10A71D1F963700772D05 /* Calculator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Calculator.c; sourceTree = "<group>"; };
 		15EB10AA1D1F9B1D00772D05 /* 2048.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 2048.c; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				1540E9E420FEDF1D00F2A047 /* 2797.c */,
 				1540E9E320FEDF1D00F2A047 /* 2804.c */,
 				1540E9E520FEDF1E00F2A047 /* 2804_new.c */,
+				15DA2F2320FF818300EB484D /* 1166.c */,
 			);
 			path = CProgDesign;
 			sourceTree = "<group>";
@@ -516,6 +519,7 @@
 				153186DE1FE5259F0052DFE5 /* C-A-8.c in Sources */,
 				1540E9EC20FEDF1E00F2A047 /* 2797_new.c in Sources */,
 				1540E9EB20FEDF1E00F2A047 /* 2738.c in Sources */,
+				15DA2F2420FF818300EB484D /* 1166.c in Sources */,
 				FDC9128E1FA308E800F39365 /* Function_minprintf.c in Sources */,
 				1540E9E820FEDF1E00F2A047 /* 2804.c in Sources */,
 			);
