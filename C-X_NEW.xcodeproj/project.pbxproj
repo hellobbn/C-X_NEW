@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		153186DE1FE5259F0052DFE5 /* C-A-8.c in Sources */ = {isa = PBXBuildFile; fileRef = FD17A9611F8A54BA00F78341 /* C-A-8.c */; };
+		1540E9E820FEDF1E00F2A047 /* 2804.c in Sources */ = {isa = PBXBuildFile; fileRef = 1540E9E320FEDF1D00F2A047 /* 2804.c */; };
+		1540E9E920FEDF1E00F2A047 /* 2797.c in Sources */ = {isa = PBXBuildFile; fileRef = 1540E9E420FEDF1D00F2A047 /* 2797.c */; };
+		1540E9EA20FEDF1E00F2A047 /* 2804_new.c in Sources */ = {isa = PBXBuildFile; fileRef = 1540E9E520FEDF1E00F2A047 /* 2804_new.c */; };
+		1540E9EB20FEDF1E00F2A047 /* 2738.c in Sources */ = {isa = PBXBuildFile; fileRef = 1540E9E620FEDF1E00F2A047 /* 2738.c */; };
+		1540E9EC20FEDF1E00F2A047 /* 2797_new.c in Sources */ = {isa = PBXBuildFile; fileRef = 1540E9E720FEDF1E00F2A047 /* 2797_new.c */; };
 		FDC9128E1FA308E800F39365 /* Function_minprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = FDC9128D1FA308E800F39365 /* Function_minprintf.c */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +49,11 @@
 		15355BDA1D2F989D005EF3AA /* C6-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C6-1.c"; sourceTree = "<group>"; };
 		153C7DBA1F651E75006B0485 /* C-A-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "C-A-2.c"; sourceTree = "<group>"; };
 		153E0DB91F736342009FB75F /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
-		1540E9D520FD78F900F2A047 /* 2804_new.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2804_new.c; sourceTree = "<group>"; };
-		1540E9D620FD78F900F2A047 /* 2804.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2804.c; sourceTree = "<group>"; };
-		1540E9D720FD78F900F2A047 /* 2797.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2797.c; sourceTree = "<group>"; };
+		1540E9E320FEDF1D00F2A047 /* 2804.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 2804.c; sourceTree = "<group>"; };
+		1540E9E420FEDF1D00F2A047 /* 2797.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 2797.c; sourceTree = "<group>"; };
+		1540E9E520FEDF1E00F2A047 /* 2804_new.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 2804_new.c; sourceTree = "<group>"; };
+		1540E9E620FEDF1E00F2A047 /* 2738.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 2738.c; sourceTree = "<group>"; };
+		1540E9E720FEDF1E00F2A047 /* 2797_new.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 2797_new.c; sourceTree = "<group>"; };
 		15442AA11D61EF6E009CE572 /* C10-1-3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-1-3.c"; sourceTree = "<group>"; };
 		1559D6571D669DD20026566E /* C11-3-main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "C11-3-main.h"; sourceTree = "<group>"; };
 		155D8B721D65E3D1000D9836 /* C10-2-8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "C10-2-8.c"; sourceTree = "<group>"; };
@@ -204,12 +211,13 @@
 		1540E9D420FD78BF00F2A047 /* CProgDesign */ = {
 			isa = PBXGroup;
 			children = (
-				1540E9D720FD78F900F2A047 /* 2797.c */,
-				1540E9D620FD78F900F2A047 /* 2804.c */,
-				1540E9D520FD78F900F2A047 /* 2804_new.c */,
+				1540E9E620FEDF1E00F2A047 /* 2738.c */,
+				1540E9E720FEDF1E00F2A047 /* 2797_new.c */,
+				1540E9E420FEDF1D00F2A047 /* 2797.c */,
+				1540E9E320FEDF1D00F2A047 /* 2804.c */,
+				1540E9E520FEDF1E00F2A047 /* 2804_new.c */,
 			);
-			name = CProgDesign;
-			path = "New Group";
+			path = CProgDesign;
 			sourceTree = "<group>";
 		};
 		155D8B791D65EA6D000D9836 /* C11.x */ = {
@@ -503,8 +511,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1540E9EA20FEDF1E00F2A047 /* 2804_new.c in Sources */,
+				1540E9E920FEDF1E00F2A047 /* 2797.c in Sources */,
 				153186DE1FE5259F0052DFE5 /* C-A-8.c in Sources */,
+				1540E9EC20FEDF1E00F2A047 /* 2797_new.c in Sources */,
+				1540E9EB20FEDF1E00F2A047 /* 2738.c in Sources */,
 				FDC9128E1FA308E800F39365 /* Function_minprintf.c in Sources */,
+				1540E9E820FEDF1E00F2A047 /* 2804.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
